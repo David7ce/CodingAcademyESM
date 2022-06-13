@@ -295,28 +295,35 @@ public class Program
 
 
     // 11. Mostrar en pantalla una lista de opciones con los días de la semana. Para elegir uno se debe introducir el número correspondiente. Una vez se ha introducido un número mostrar la opción elegida.
-    /*
     void Ejercicio11()
     {
-        void MostrarLista(string[] texto)
+        string[] diasSemana = {"Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"};
+
+        void MostrarLista(string[] diasSemana)
         {
-            for (int i = 0; i < texto.Length; i++)
+            for (int i = 0; i < diasSemana.Length; i++)
             {
                 Console.Write(i + ". ");
             }
         }
-        string buscarPalabraPorIndice(string[] lista, int numero)
-        {
-            int contador = 0;
-            string palabra = "";
-            while (lista[contador] != numero)
-            {
 
-            }
-            return palabra;
+        int IntroduceNumero()
+        {
+            Console.WriteLine("Introduce un números por pantalla, para saber el elemento de la lista. Ejemplo (lunes = 1).");
+            int indice = Convert.ToInt32(Console.ReadLine());
+            return indice;
         }
+
+        string MostrarIndiceLista(string[] lista, int indice)
+        {
+            string dia = lista[indice];
+            return dia;
+        }
+
+        MostrarLista(diasSemana);
+        IntroduceNumero();
+        MostrarIndiceLista(diasSemana,IntroduceNumero());
     }
-    */
 
     // 12. Mostrar los números impares entre el 0 y el 100.
 

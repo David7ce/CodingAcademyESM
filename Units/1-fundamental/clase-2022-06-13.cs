@@ -105,7 +105,6 @@ namespace Ejemplo_listas
                 Console.WriteLine();
             }
         }
-
         public static void Main(string[] args)
         {
             char[,] tablero = new char[8, 8];
@@ -119,7 +118,81 @@ namespace Ejemplo_listas
             }
             pintar(tablero);
         }
+    }
+}
+*/
 
+/*
+Console.WriteLine("Dime un número");
+int x = 0;
+
+bool numeroCorrecto = false;
+
+while (!numeroCorrecto)
+{
+    try
+    {
+        x = Convert.ToInt32(Console.ReadLine());
+    }
+    catch(Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+        Console.WriteLine("Te dije un número");
+    }
+}
+*/
+
+/*
+namespace ejemplos_herencia
+{
+    class Animal
+    {
+        public void respirar()
+        {
+            Console.WriteLine("Estoy respirando");
+        }
+        public virtual void hacerRuido()
+        {
+            Console.WriteLine("Hago un ruido");
+        }
+    }
+    class Perro: Animal
+    {
+        public override void hacerRuido()
+        {
+            Console.WriteLine("Guau Guau");
+        }
+    }
+    class Gato : Animal
+    {
+        public override void hacerRuido()
+        {
+            Console.WriteLine("Miau Miau");
+        }
+    }
+    class Lagarto : Animal
+    {
+        public override void hacerRuido()
+        {
+            Console.WriteLine("Fttz");
+        }
+    }
+
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Animal[] x = new Animal[3];
+            x[0] = new Gato();
+            x[1] = new Perro();
+            x[2] = new Lagarto();
+
+            for (int i = 0; i < x.Length; i++)
+            {
+                x[i].respirar();
+                x[i].hacerRuido();
+            }
+        }
     }
 }
 */
