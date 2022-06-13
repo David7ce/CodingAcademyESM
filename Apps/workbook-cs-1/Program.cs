@@ -188,33 +188,58 @@ public class Program
     // 6. Ingresar un número e indicar si es positivo o negativo.
     void Ejercicio6()
     {
-        void IngresarNumero(int cantidadNumeros)
+        int IngresarNumero()
         {
             Console.WriteLine("Escribe un número por consola: ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            return num;
         }
 
         string PositivoONegativo(int num)
         {
-            num = Convert.ToInt32(Console.ReadLine());
-
+            string texto = "";
             if (num > 0)
             {
-                return "Positivo";
+                Console.WriteLine("Positivo");
             }
-            if ( num < 0)
+            if (num < 0)
             {
-                return "Negativo";
+                Console.WriteLine("Negativo");
             }
-            if ( num == 0)
+            if (num == 0)
             {
-                return "Cero";
+                Console.WriteLine("Cero");
             }
+            return texto;
         }
 
-        PositivoONegativo(30);
+        PositivoONegativo(IngresarNumero());
     }
 
+
     // 7. Mostrar si un número introducido por consola es par o impar.
+    void Ejercicio7()
+    {
+        int IntroducirNumero()
+        {
+            Console.Write("Introduce un número por pantalla:");
+            int num = Convert.ToInt32(Console.ReadLine());
+            return num;
+        }
+
+        void numeroParOImpar(int numero)
+        {
+            if (numero % 2 == 0)
+            {
+                Console.WriteLine("El número es par.");
+            }
+            else
+            {
+                Console.WriteLine("El número es impar.");
+            }
+        }
+        numeroParOImpar(IntroducirNumero());
+    }
 
 
     // 8. Equivalencia de Grados Celsius con Grados Fahrenheit
