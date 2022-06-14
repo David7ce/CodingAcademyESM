@@ -23,11 +23,11 @@ Clases del curso **Programación y diseño web** de ESM ordenadas por fecha.
 - [Workbook-cs-1](Apps/workbook-cs-1//Program.cs)
 - [Workbook-cs-2](Apps/workbook-cs-2//Program.cs)
 ---
+- [Clase 2022-06-14](Units/1-fundamental/clase-2022-06-14.md)
 
 
 ```txt
 
-- [Clase 2022-06-14](Units/1-fundamental/clase-2022-06-14.cs)
 - [Clase 2022-06-15](Units/1-fundamental/clase-2022-06-15.cs)
 - [Clase 2022-06-16](Units/1-fundamental/clase-2022-06-16.cs)
 - [Clase 2022-06-17](Units/1-fundamental/clase-2022-06-17.cs)

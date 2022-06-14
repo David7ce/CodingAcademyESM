@@ -19,6 +19,9 @@
 
 ## Docs
 - [MS Docs](https://docs.microsoft.com/en-us/)
+- [MDN Developer](https://developer.mozilla.org/)
+- [HTML | MDN Developer](https://developer.mozilla.org/docs/Web/HTML)
+
 ### C#
 - [CSharp | MS Docs](https://docs.microsoft.com/en-us/dotnet/csharp/)
 - [CSharp Methods | MS Docs](https://docs.microsoft.com/en-us/dotnet/csharp/methods)
@@ -26,7 +29,7 @@
 - [Git commands](https://github.com/Curiosity432/Git-commands)
 - [Git, basic commands](https://www.hostinger.com/tutorials/basic-git-commands)
 
-## Framework
+## Framework / IDE
 - [DotNet](https://dotnet.microsoft.com/en-us/)
 - [Jekyll rb](https://jekyllrb.com/)
 - [HUGO](https://gohugo.io/)
@@ -38,6 +41,7 @@
 ## Online Compiler
 - [.NET Fiddle](https://dotnetfiddle.net/)
 - [Replit](https://replit.com)
+- [Codepen.io](https://codepen.io/pen)
 
 ## Platform
 - [BitBucket](https://bitbucket.org/)
@@ -62,3 +66,8 @@
 - [Interneto - Online compiler](https://raindrop.io/Interneto/online-compiler-19046054)
 - [Interneto - Coding resources](https://raindrop.io/Interneto/coding-resources-19046052)
 - [Interneto - Coding content](https://raindrop.io/Interneto/coding-content-22053379)
+
+
+- https://lipsum.com/
+- https://en.wikipedia.org/wiki/Enhanced_Mitigation_Experience_Toolkit
+- https://emmet.io/
