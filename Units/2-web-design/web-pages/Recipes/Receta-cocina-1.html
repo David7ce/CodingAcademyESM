@@ -7,6 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receta de cocina</title>
     <style>
+        * {
+            border: 1px solid black;
+        }
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+        
+        /*
         h1 {
             text-align: center;
             font-family: 'Courier New', Courier, monospace;
@@ -24,6 +38,34 @@
         body {
             background-color: aliceblue;
         }
+        p {
+            text-align: justify;
+        }
+        li {
+            font-size: 24 px;
+        }
+        strong {
+            background-color: black;
+            color: white;
+        }
+        */
+        /*
+        section {
+            color: gray;
+        }
+        #seccion-ingredientes {
+            background-color: azure;
+        }
+        #seccion-instrucciones {
+            background-color: beige;
+        }
+        .en-rojo {
+            color: red;
+        }
+        .grande {
+            font-size: large;
+        }
+        */
     </style>
 </head>
 
@@ -41,8 +83,8 @@
         <li>Tiempo de preparación:</li>
         <li><strong>Dificultad:</strong> Fácil</li>
     </ul>
-
-    <section>
+<!--<section style="background-color: grey">-->
+    <section id="seccion-ingredientes">
         <h2>Ingredientes</h2>
         <ul>
             <li>1/2 tasa de arroz integral (100 g)</li>
@@ -51,17 +93,18 @@
             <li>1/2 pimiento rojo</li>
             <li>1/2 taza de judías verdes congeladas (70 g)</li>
             <li>1/2 taza de habas congeladas (70 g)</li>
-            <li>1/2 taza de alcachofas congeladas (70 g)</li>
+            <li class="en-rojo grande">1/2 taza de alcachofas congeladas (70 g)</li>
             <li>1 tomate troceado</li>
             <li>1 cucharadita de pimentón dulce</li>
             <li>2 cucharaditas de romero seco</li>
-            <li>2 cucharaditas de tomillo seco</li>
+            <li class="en-rojo">2 cucharaditas de tomillo seco</li>
             <li>1 cucharadita de cúrcuma en polvo</li>
             <li>Pimienta negra molida al gusto</li>
             <li>Limón (opcional)
         </ul>
     </section>
-    <section>
+
+    <section id="seccion-instrucciones">
         <h2>Preparación</h2>
         <ol>
             <li>Cocina el arroz siguiendo las instrucciones del paquete (yo usé 1 taza de agua ó 250 ml y estuvo listo
