@@ -95,3 +95,27 @@ Clases del curso **Programación y diseño web** de ESM ordenadas por fecha.
 - [Clase 2022-10-31](Units/9-mobile-app/clase-2022-10-31.cs)
 
 ```
+
+.vscode
+├── Apps/
+    ├── workbook-cs-1
+    ├── workbook-cs-2
+├── Documentation/
+    ├── C#
+        ├── C#-notes.md
+    ├──  Git
+        ├── Git-commands.md
+├── Units
+    ├── 1-fundamental
+    ├── 2-web-design
+    ├── 3-front-end
+    ├── 4-database
+    ├── 5-php
+    ├── 6-content-manager
+    ├── 7-testing
+    ├── 8-deployment
+    ├── 9-mobile-app   
+└── .gitignore
+└── Calendario.pdf
+└── README.md
+└── bookmarks.md
