@@ -30,35 +30,35 @@ Clases del curso **Programación y diseño web** de ESM ordenadas por fecha.
 └── bookmarks.md
 ```
 
-## Fundamentos de programación
+## 1. Fundamentos de programación
 - [Clase 2022-05-24](Units/1-fundamental/clase-2022-05-24.cs)
 - [Clase 2022-05-25](Units/1-fundamental/clase-2022-05-25.cs)
 - [Clase 2022-05-26](Units/1-fundamental/clase-2022-05-26.cs)
 - [Clase 2022-05-27](Units/1-fundamental/clase-2022-05-27.cs)
----
+
 - [Clase 2022-05-31](Units/1-fundamental/clase-2022-05-31.cs)
 - [Clase 2022-06-01](Units/1-fundamental/clase-2022-06-01.cs)
 - [Clase 2022-06-02](Units/1-fundamental/clase-2022-06-02.cs)
 - [Clase 2022-06-03](Units/1-fundamental/clase-2022-06-03.cs)
----
+
 - [Clase 2022-06-06](Units/1-fundamental/clase-2022-06-06.cs)
 - [Clase 2022-06-07](Units/1-fundamental/clase-2022-06-07.cs)
 - [Clase 2022-06-08](Units/1-fundamental/clase-2022-06-08.cs)
 - [Clase 2022-06-09](Units/1-fundamental/clase-2022-06-09.cs)
 - [Clase 2022-06-10](Units/1-fundamental/clase-2022-06-10.cs)
 - [Clase 2022-06-13](Units/1-fundamental/clase-2022-06-13.cs)
----
+
 - [Workbook-cs-1](Apps/workbook-cs-1//Program.cs)
 - [Workbook-cs-2](Apps/workbook-cs-2//Program.cs)
----
-- [Clase 2022-06-14](Units/1-fundamental/clase-2022-06-14.md)
+
+## 2. Diseño Web
+- [Clase 2022-06-14](Units/2-web-design/clase-2022-06-14.md)
 
 
 ```txt
-
-- [Clase 2022-06-15](Units/1-fundamental/clase-2022-06-15.cs)
-- [Clase 2022-06-16](Units/1-fundamental/clase-2022-06-16.cs)
-- [Clase 2022-06-17](Units/1-fundamental/clase-2022-06-17.cs)
+- [Clase 2022-06-15](Units/2-web-design/clase-2022-06-15.cs)
+- [Clase 2022-06-16](Units/2-web-design/clase-2022-06-16.cs)
+- [Clase 2022-06-17](Units/2-web-design/clase-2022-06-17.cs)
 ---
 
 - [Clase 2022-06-20](Units/2-web-design/clase-2022-06-20.cs)
@@ -121,5 +121,4 @@ Clases del curso **Programación y diseño web** de ESM ordenadas por fecha.
 ---
 
 - [Clase 2022-10-31](Units/9-mobile-app/clase-2022-10-31.cs)
-
 ```
