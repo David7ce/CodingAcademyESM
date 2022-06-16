@@ -3,25 +3,27 @@
 Clases del curso **Programación y diseño web** de ESM ordenadas por fecha.
 
 ```sh
-.vscode
+.(site root)
+├──.git/
+├──.vscode/
 ├── Apps/
-    ├── workbook-cs-1
-    ├── workbook-cs-2
+    ├── workbook-cs-1/
+    ├── workbook-cs-2/
 ├── Documentation/
-    ├── C#
+    ├── C#/
         ├── C#-notes.md
-    ├──  Git
+    ├──  Git/
         ├── Git-commands.md
-├── Units
-    ├── 1-fundamental
-    ├── 2-web-design
-    ├── 3-front-end
-    ├── 4-database
-    ├── 5-php
-    ├── 6-content-manager
-    ├── 7-testing
-    ├── 8-deployment
-    ├── 9-mobile-app   
+├── Units/
+    ├── 1-fundamental/
+    ├── 2-web-design>/
+    ├── 3-front-end/
+    ├── 4-database/
+    ├── 5-php/
+    ├── 6-content-manager/
+    ├── 7-testing/
+    ├── 8-deployment/
+    ├── 9-mobile-app/
 └── .gitignore
 └── Calendario.pdf
 └── README.md
