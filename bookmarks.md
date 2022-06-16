@@ -71,3 +71,6 @@
 - https://lipsum.com/
 - https://en.wikipedia.org/wiki/Enhanced_Mitigation_Experience_Toolkit
 - https://emmet.io/
+
+- Visual Studio Code (extension)
+    - Live Server exetnsion
