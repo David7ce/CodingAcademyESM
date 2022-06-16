@@ -1,0 +1,63 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-image: url("./recipes/img/more-leaves-on-green.png");
+    background-size: 100px;
+    background-repeat: none;
+    background-position: 25% 50%;
+    background-size: 50%;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    max-width: 640px;
+    margin: 0 auto 0 auto;
+}
+
+.resaltar {
+    background-color: yellow;
+    color: red;
+}
+
+ol {
+    border: 2px solid black;
+    background-color: rgb(235, 227, 217);
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-radius: 3px;
+    border-top: 15px;
+    border-bottom: 15px;
+    box-shadow: 3px 3px 15px darkgrey;
+    margin-left: 30px;
+    list-style: none;
+}
+
+ul {
+    border: 2px solid dark;
+    background-color: rgb(235, 227, 217);
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-radius: 3px;
+    border-top: 15px;
+    border-bottom: 15px;
+    box-shadow: 3px 3px 15px darkgrey;
+    margin-left: 30px;
+    text-align: center;
+    list-style: none;
+}
+
+/*
+li {
+}
+*/
+

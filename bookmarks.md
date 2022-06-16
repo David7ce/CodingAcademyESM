@@ -67,6 +67,7 @@
 - [Interneto - Coding resources](https://raindrop.io/Interneto/coding-resources-19046052)
 - [Interneto - Coding content](https://raindrop.io/Interneto/coding-content-22053379)
 
+---
 
 - https://lipsum.com/
 - https://en.wikipedia.org/wiki/Enhanced_Mitigation_Experience_Toolkit
@@ -74,3 +75,7 @@
 
 - Visual Studio Code (extension)
     - Live Server exetnsion
+
+- https://www.toptal.com/designers/subtlepatterns/
+- https://www.tutorialkart.com/
+- https://entrellaves.com/
