@@ -16,7 +16,7 @@ Clases del curso **Programación y diseño web** de ESM ordenadas por fecha.
         ├── Git-commands.md
 ├── Units/
     ├── 1-fundamental/
-    ├── 2-web-design>/
+    ├── 2-web-design/
     ├── 3-front-end/
     ├── 4-database/
     ├── 5-php/
