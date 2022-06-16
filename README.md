@@ -1,7 +1,8 @@
 # Coding Academy Clase
 
-Clases del curso **Programación y diseño web** de ESM ordenadas por fecha.
+Clases y apuntes del curso **Programación y diseño web** de ESM (European School Management) 2022.
 
+# Ruta de directorio
 ```sh
 .(site root)
 ├──.git/
@@ -29,6 +30,9 @@ Clases del curso **Programación y diseño web** de ESM ordenadas por fecha.
 └── README.md
 └── bookmarks.md
 ```
+
+# Contenido
+- Contenido de las clases ordenados por fecha.
 
 ## 1. Fundamentos de programación
 - [Clase 2022-05-24](Units/1-fundamental/clase-2022-05-24.cs)
@@ -80,29 +84,25 @@ Clases del curso **Programación y diseño web** de ESM ordenadas por fecha.
 - [Clase 2022-07-13](Units/3-front-end/clase-2022-07-13.cs)
 - [Clase 2022-07-14](Units/3-front-end/clase-2022-07-14.cs)
 - [Clase 2022-07-15](Units/3-front-end/clase-2022-07-15.cs)
----
+
 - [Clase 2022-07-18](Units/3-front-end/clase-2022-07-18.cs)
----
 
 - [Clase 2022-07-25](Units/3-front-end/clase-2022-07-25.cs)
 ---
 
 - [Clase 2022-08-01](Units/4-database/clase-2022-08-01.cs)
----
 
 - [Clase 2022-08-08](Units/4-database/clase-2022-08-08.cs)
----
 
 - [Clase 2022-08-29](Units/4-database/clase-2022-08-29.cs)
 ---
 
 - [Clase 2022-09-05](Units/5-php/clase-2022-09-05.cs)
----
 
 - [Clase 2022-09-12](Units/5-php/clase-2022-09-12.cs)
----
 
 - [Clase 2022-09-19](Units/5-php/clase-2022-09-26.cs)
+
 ---
 
 - [Clase 2022-10-03](Units/6-content-manager/clase-2022-10-03.cs)
@@ -115,10 +115,10 @@ Clases del curso **Programación y diseño web** de ESM ordenadas por fecha.
 ---
 
 - [Clase 2022-10-17](Units/9-mobile-app/clase-2022-10-17.cs)
----
+
 
 - [Clase 2022-10-24](Units/9-mobile-app/clase-2022-10-24.cs)
----
+
 
 - [Clase 2022-10-31](Units/9-mobile-app/clase-2022-10-31.cs)
 ```
