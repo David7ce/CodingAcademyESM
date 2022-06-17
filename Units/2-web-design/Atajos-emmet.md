@@ -68,3 +68,5 @@ Ctrl + Enter -> Saltar a la siguiente línea
 
 - Shit + Alt + flecha -> Copia la línea del cursor en la la siguiente línea
 
+
+## Regex

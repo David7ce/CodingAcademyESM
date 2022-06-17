@@ -79,3 +79,4 @@
 - https://www.toptal.com/designers/subtlepatterns/
 - https://www.tutorialkart.com/
 - https://entrellaves.com/
+- https://cssgradient.io/

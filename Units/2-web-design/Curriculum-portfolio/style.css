@@ -1,0 +1,44 @@
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight:  400;
+    margin: 8px 25% 8px 25%;
+}
+
+.nombre-h1 {
+    font-weight: 900;
+    color: rgb(44, 37, 37);
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 0 auto; /*centrar*/
+    padding: 1%;
+    border-radius: 50%;
+    border: 5px solid rgb(68, 68, 108);
+    box-shadow: 40%;
+    display: block;
+
+}
+
+.datos-perfil ul {
+    list-style: none;
+    /* 
+    font-family: 'Fira Sans', sans-serif;
+    */
+    font-weight: 200;
+}
+
+.habilidades ul {
+
+
+}
+
+strong {
+    font-weight: 700;
+}
+
+span {
+    color: rgb(13, 13, 38);
+    font-weight: 700;
+}
