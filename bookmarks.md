@@ -66,6 +66,7 @@
 - [Interneto - Online compiler](https://raindrop.io/Interneto/online-compiler-19046054)
 - [Interneto - Coding resources](https://raindrop.io/Interneto/coding-resources-19046052)
 - [Interneto - Coding content](https://raindrop.io/Interneto/coding-content-22053379)
+<<<<<<< HEAD
 
 ---
 
@@ -80,3 +81,5 @@
 - https://www.tutorialkart.com/
 - https://entrellaves.com/
 - https://cssgradient.io/
+=======
+>>>>>>> 1c04c9cb6e0d93d14448ea5dcab748907b955f4d
