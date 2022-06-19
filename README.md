@@ -57,12 +57,9 @@ Clases y apuntes del curso **Programación y diseño web** de ESM (European Scho
 
 ## 1. Diseño Web
 - [Clase 2022-06-14](Units/1-web-design/clase-2022-06-14.md)
-- [Clase 2022-06-15](Units/1-web-design/clase-2022-06-15.md)
-- [Clase 2022-06-16](Units/1-web-design/clase-2022-06-16.md)
-- [Clase 2022-06-17](Units/1-web-design/clase-2022-06-17.md)
+- [Clase 2022-06-20](Units/1-web-design/clase-2022-06-20.md)
 
 ```txt
-- [Clase 2022-06-20](Units/1-web-design/clase-2022-06-20.md)
 - [Clase 2022-06-21](Units/1-web-design/clase-2022-06-21.md)
 - [Clase 2022-06-22](Units/1-web-design/clase-2022-06-22.md)
 - [Clase 2022-06-23](Units/1-web-design/clase-2022-06-23.md)
