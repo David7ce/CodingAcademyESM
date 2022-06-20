@@ -89,3 +89,4 @@
 
 - https://github.com/microsoft/terminal
 - https://github.com/ohmyzsh/ohmyzsh
+- https://workingcopyapp.com/
