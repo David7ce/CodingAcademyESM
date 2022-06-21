@@ -76,3 +76,9 @@ Animating svg with css
 - https://www.svgator.com/
 
 - https://www.bookmarks.design/
+
+- https://css-tricks.com/
+
+- https://codepen.io/marscb
+
+- https://bennettfeely.com/

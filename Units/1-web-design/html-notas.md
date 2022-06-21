@@ -56,3 +56,66 @@
 - Poner dos columnas.
 
 - Layout dos columnas.
+
+
+- Justify content (en vertical)
+
+- Allign content (en horizontal)
+
+---
+
+Clase 2022-06-14
+# Lenguaje de marcs (HTML y CSS)
+
+## Etiquetas HTML
+
+## Introducción a HTML
+- Encabezados  (h1, h2, h3...)
+- Párrafos  <p> <br>
+- Hyperlinks <ol> <ul> <li>
+- Listas <little>
+- Head y body <head> <body>
+
+## Introducción a CSS
+
+## Clase del miércoles 15 de Junio de 2022
+Se empezó con CSS.
+
+## Clase del jueves 16 de Junio de 2022
+
+Se empezó a hacer un curriculum en HTML
+
+# Clase del viernes 17 de Junio de 2022
+
+- Se practicó CSS y HTML trabajando sobre un curriculum modificando el contenido.
+
+<!-- Centrar imagen como bloque o centrando un un div-->
+
+img {
+    display:block
+    margin-left: auto;
+    margin-rigth: auto;
+}
+
+---
+
+Clase 2022-06-14
+
+## Aprender a usar Git
+
+- Instalar git, configurar y usar comandos.
+- Crear HTML con comandos de git
+
+* {
+    box-sizing: border box;
+}
+
+Cuando no pones wrap como el flex es flesible se estrecha.
+Si no caben ponlas debajo.
+
+Para hacer un banner responsivo con un flex
+flex-wrap: wrap;
+flex-wrap: wrap-reverse;
+flex-direction: row;
+
+- [Cambio de tamaño de cajas](./web-pages/html-test/box-sizing.html)
