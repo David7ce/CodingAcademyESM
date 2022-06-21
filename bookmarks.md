@@ -69,24 +69,3 @@
 
 ---
 
-- https://lipsum.com/
-- https://en.wikipedia.org/wiki/Enhanced_Mitigation_Experience_Toolkit
-- https://emmet.io/
-
-- Visual Studio Code (extension)
-    - Live Server exetnsion
-
-- https://www.toptal.com/designers/subtlepatterns/
-- https://www.tutorialkart.com/
-- https://entrellaves.com/
-- https://cssgradient.io/
-
-- http://sourabhbajaj.com/mac-setup/
-
-- https://starship.rs/
-- https://ohmyposh.dev/
-- https://www.nerdfonts.com/
-
-- https://github.com/microsoft/terminal
-- https://github.com/ohmyzsh/ohmyzsh
-- https://workingcopyapp.com/
