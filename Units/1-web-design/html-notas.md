@@ -90,13 +90,13 @@ Se empezó a hacer un curriculum en HTML
 - Se practicó CSS y HTML trabajando sobre un curriculum modificando el contenido.
 
 <!-- Centrar imagen como bloque o centrando un un div-->
-
+´´´css
 img {
-    display:block
+    display:block;
     margin-left: auto;
     margin-rigth: auto;
 }
-
+´´´
 ---
 
 Clase 2022-06-14
@@ -106,16 +106,21 @@ Clase 2022-06-14
 - Instalar git, configurar y usar comandos.
 - Crear HTML con comandos de git
 
+´´´css
 * {
     box-sizing: border box;
 }
+´´´
 
 Cuando no pones wrap como el flex es flesible se estrecha.
 Si no caben ponlas debajo.
 
 Para hacer un banner responsivo con un flex
+
+´´´css
 flex-wrap: wrap;
 flex-wrap: wrap-reverse;
 flex-direction: row;
+´´´
 
 - [Cambio de tamaño de cajas](./web-pages/html-test/box-sizing.html)

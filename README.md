@@ -80,21 +80,16 @@ Clases y apuntes del curso **Programación y diseño web** de ESM (European Scho
 - [Clase 2022-07-15](Units/2-front-end/clase-2022-07-15.md)
 
 - [Clase 2022-07-18](Units/2-front-end/clase-2022-07-18.md)
-
 - [Clase 2022-07-25](Units/2-front-end/clase-2022-07-25.md)
 ---
 
 - [Clase 2022-08-01](Units/3-database/clase-2022-08-01.md)
-
 - [Clase 2022-08-08](Units/3-database/clase-2022-08-08.md)
-
 - [Clase 2022-08-29](Units/3-database/clase-2022-08-29.md)
 ---
 
 - [Clase 2022-09-05](Units/4-php/clase-2022-09-05.md)
-
 - [Clase 2022-09-12](Units/4-php/clase-2022-09-12.md)
-
 - [Clase 2022-09-19](Units/4-php/clase-2022-09-26.md)
 
 ---
