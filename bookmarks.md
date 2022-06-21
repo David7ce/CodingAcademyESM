@@ -82,3 +82,5 @@ Animating svg with css
 - https://codepen.io/marscb
 
 - https://bennettfeely.com/
+
+- https://bennettfeely.com/clippy/
