@@ -69,3 +69,10 @@
 
 ---
 
+Animating svg with css
+
+- https://svgartista.net/
+
+- https://www.svgator.com/
+
+- https://www.bookmarks.design/
