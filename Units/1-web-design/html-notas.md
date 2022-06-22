@@ -124,3 +124,6 @@ flex-direction: row;
 ´´´
 
 - [Cambio de tamaño de cajas](./web-pages/html-test/box-sizing.html)
+
+
+- Se puede usar calc()
