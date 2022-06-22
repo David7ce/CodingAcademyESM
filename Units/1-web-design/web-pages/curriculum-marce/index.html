@@ -21,8 +21,8 @@
             <div id="caja-foto">
                 <img src="./images/foto.jpg" alt="foto de la persona">
             </div>
-            <div class="sobre-mi">
-                <h2>Sobre mí</h2>
+            <div id="sobre-mi">
+                <h2>Sobre mi</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit doloribus debitis fuga odio
                     nesciunt nisi esse magni natus? Incidunt sit tenetur at facilis aperiam sapiente a, perspiciatis
                     magni maiores fugiat.</p>
@@ -30,107 +30,87 @@
                     ea voluptates doloremque architecto sunt possimus est tempore sit optio, animi similique! Rem
                     reiciendis expedita minima?</p>
             </div>
-            <div class="redes-sociales">
+            <div id="redes-sociales">
                 <h2>Redes sociales</h2>
                 <ul>
-                    <li><span>Facebook: </span> <br> <a href="https://facebook.com/blabla">blabla</a></li>
-                    <li><span>Twitter: </span> <br> <a href="https://twitter.com/blabla">blabla</a></li>
-                    <li><span>LinkedIn: </span> <br> <a href="https://linkedin.com/blabla">blabla</a></li>
+                    <li><span>Facebook: </span> <br> <a href="https://facebook.com/blabla">facebook.com/blabla</a></li>
+                    <li><span>Twitter: </span> <br> <a href="https://twitter.com/blabla">twitter.com/blabla</a></li>
+                    <li><span>LinkedIn: </span> <br> <a href="https://linkedin.com/blabla">linkedin.com/blabla</a></li>
                 </ul>
             </div>
         </div>
-        <!-- Columna derecha con información general -->
+        <!-- Columna derecha con información general y formación -->
         <div id="columna-derecha">
             <header>
                 <div id="nombre">
-                    <h1>
-                        Laura <br> <span class="apellido">Reyes</span>
-                    </h1>
-                    <h2>
-                        <id class="cargo">Diseñadora de interiores</id>
-                    </h2>
+                    <h1>Laura <br> <span class="apellido">Reyes</span></h1>
+                    <div id="cargo">Diseñadora de Interiores</div>
                 </div>
                 <div id="contacto">
                     <ul>
-                        <li><i class="fa solid fa-location-dot"></i>Calle falsa, 123</li>
-                        <li><i class="fa solid fa-phone"></i>+34 666 666 666</li>
-                        <li><i class="fa solid fa-envelope"></i>lreyes@example.com</li>
-                        <li><i class="fa solid fa-earth-europe"></i>laura.example.com</li>
+                        <li><i class="fa solid fa-location-dot"></i> Calle falsa, 123</li>
+                        <li><i class="fa solid fa-phone"></i> +34 666 666 666</li>
+                        <li><i class="fa solid fa-envelope"></i> lreyes@example.com</li>
+                        <li><i class="fa solid fa-earth-europe"></i> <a
+                                href="https://laura.example.com/">laura.example.com</a></li>
                     </ul>
                 </div>
             </header>
             <div id="experiencia">
                 <h2>Experiencia laboral</h2>
-                <div class="columna-curriculum-izquierda">
-                    <h3>Aerolightning</h3>
-                    <div class="fecha">2015 - 2016</div>
-                </div>
-                <div class="columna-curriculum-derecha">
-                    <h4>Diseñadora de iluminación</h4>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quos cum at modi magnam
-                        blanditiis placeat, molestiae quidem natus pariatur officia explicabo fugit ut commodi aliquid
-                        illo! Ipsa, fuga eum!
-                    </p>
-                </div>
-                <div class="columna-curriculum-izquierda">
-                    <h3>Aerolightning</h3>
-                    <div class="fecha">2015 - 2016</div>
-                </div>
-                <div class="columna-curriculum-derecha">
-                    <h4>Diseñadora de iluminación</h4>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quos cum at modi magnam
-                        blanditiis placeat, molestiae quidem natus pariatur officia explicabo fugit ut commodi aliquid
-                        illo! Ipsa, fuga eum!
-                    </p>
-                </div>
-
-                <div class="columna-curriculum-izquierda">
-                    <h3>Aerolightning</h3>
-                    <div class="fecha">2015 - 2016</div>
-                </div>
-                <div class="columna-curriculum-derecha">
-                    <h4>Diseñadora de iluminación</h4>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quos cum at modi magnam
-                        blanditiis placeat, molestiae quidem natus pariatur officia explicabo fugit ut commodi aliquid
-                        illo! Ipsa, fuga eum!
-                    </p>
-                </div>
-            </div>
-            <div id="formacion">
-                <h2>Formación</h2>
-                <div class="fila-curriculum"></div>
-                <div class="columna-curriculum-izquierda">
-                    <h3>Aerolightning</h3>
-                    <div class="fecha">2015 - 2016</div>
-                </div>
-                <div class="columna-curriculum-derecha">
-                    <h4>Diseñadora de iluminación</h4>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quos cum at modi magnam
-                        blanditiis placeat, molestiae quidem natus pariatur officia explicabo fugit ut commodi aliquid
-                        illo! Ipsa, fuga eum!
-                    </p>
+                <div class="fila-curriculum">
+                    <div class="columna-curriculum-izquierda">
+                        <h3>Empresa 1</h3>
+                        <div class="fecha">2010 - 2016</div>
+                    </div>
+                    <div class="columna-curriculum-derecha">
+                        <h4>Desarrollador Front End en StackOverflow</h4>
+                        <p>Trabajador durante 6 años como desarrollador Front End de StackOverflow. Encargado de la
+                            parte visual y gráfica de la web principal.</p>
+                    </div>
                 </div>
                 <div class="fila-curriculum">
                     <div class="columna-curriculum-izquierda">
-                        <h3>Aerolightning</h3>
-                        <div class="fecha">2015 - 2016</div>
+                        <h3>Empresa 2</h3>
+                        <div class="fecha">2016 - 2020</div>
                     </div>
                     <div class="columna-curriculum-derecha">
-                        <h4>Diseñadora de iluminación</h4>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quos cum at modi magnam
-                            blanditiis placeat, molestiae quidem natus pariatur officia explicabo fugit ut commodi
-                            aliquid
-                            illo! Ipsa, fuga eum!
-                        </p>
+                        <h4>Desarrollador Back End en PayPal</h4>
+                        <p>Estuve trabajando durante 2 años como desarrollador back end en la empresa Paypal. Encargado
+                            de diseñar las bases de datos.</p>
                     </div>
                 </div>
+                <div id="formacion">
+                    <h2>Formación</h2>
+                    <div class="fila-curriculum">
+                        <div class="columna-curriculum-izquierda">
+                            <h3>Estudios 1</h3>
+                            <div class="fecha">2006 - 2010</div>
+                        </div>
+                        <div class="columna-curriculum-derecha">
+                            <h4>Grado en Computación</h4>
+                            <p>
+                                Título de graduado de computación
+                            </p>
+                        </div>
+                    </div>
+                    <div class="fila-curriculum">
+                        <div class="columna-curriculum-izquierda">
+                            <h3>Estudios 2</h3>
+                            <div class="fecha">2004 - 2006</div>
+                        </div>
+                        <div class="columna-curriculum-derecha">
+                            <h4>Título de Curso Superior de Programación y Diseño Web</h4>
+                            <p>
+                                Dos años de estudio en el Instituto Lorem Ipsum en el Cusro Superior de Programación y
+                                Diseño Web
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </div>    
 </body>
 
 </html>

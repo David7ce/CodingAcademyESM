@@ -1,32 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    text-transform: uupercase;
-    margin-bottom: 0;
-    margin-top: 12em;
-    line-height: 1em;
-    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 700;
     font-size: 55px;
-    font-family: 'Roboto', sans-serif;
+    line-height: 1em;
 }
 
 .apellido {
     font-weight: 300;
 }
 
-.cargo {
+#cargo {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 25px;
 }
 
 #contenedor-principal {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 
 #caja-foto img {
@@ -38,8 +39,10 @@ h1 {
 #columna-izquierda {
     background-color: #414142;
     color: #e7e7e8;
-    width: calc(100% /3);
+    width: calc(100% / 4);
     padding: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 #columna-izquierda h2 {
@@ -47,9 +50,9 @@ h1 {
 }
 
 #columna-derecha {
-    width: calc(2*(100%/3));
+    width: calc(100% / 4 * 3);
     padding: 40px;
-    color: #616165
+    color: #616165;
 }
 
 header {
@@ -58,6 +61,8 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #616165;
 }
 
 #contacto ul {
@@ -65,38 +70,38 @@ header {
 }
 
 #contacto ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 20px;
 }
 
 .fila-curriculum {
-    border: 1px solid black;
+    
     display: flex;
     flex-direction: row;
-    margin-bottom: 5px;
 }
 
 .columna-curriculum-izquierda {
-    width: calc(100% / 50 * 2);
-    border-right: 2px solid #414142;
+    width: calc(100% / 5 * 2);
+    border-right: 2px solid #616165;
 }
 
-/*
-.columna-curriculum-izquierda::after {
-    content: "X";
-    background-color: red;
-    position: relative;
-    left: 0;
-    top: 0;
-}
-*/
 .columna-curriculum-derecha {
-    width: calc(100% / 5 *3);
-    padding-left: 30px;   
+    width: calc(100% / 5 * 3);
+    padding-left: 30px;
+
+}
+
+#redes-sociales {
+    margin-top: auto;
+}
+
+#redes-sociales ul {
+    list-style: none;
+    padding-left: 0;
 }
 
 #redes-sociales ul li {
-    
+    margin-bottom: 20px;
 }
 
 #redes-sociales ul li span {
@@ -104,6 +109,17 @@ header {
 }
 
 #redes-sociales ul li a {
-    color: #e7e7e8;
+    color:#e7e7e8;
     text-decoration: none;
+}
+
+#experiencia {
+    border-bottom: 2px solid #616165;
+    padding-bottom: 50px;
+}
+
+h3, h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
 }
