@@ -72,3 +72,7 @@
 - https://tailwindui.com/
 
 - https://www.refactoringui.com/
+
+- https://loremflickr.com/
+
+- https://babakfakhamzadeh.com/

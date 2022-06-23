@@ -6,52 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Catálogo Electrónica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,100;1,300;1,400;1,500&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/a1d7cd16c0.js" crossorigin="anonymous"></script>
+    <title>Catálogo Electrónica</title>
+
 </head>
 
 <body>
     <header>
-        <div class="cabecera">
-            <div>Descubre #5estrellasPcComponentes</div>
-            <div>Envíos gratuitos a partir de 50€</div>
-            <div>Devoluciones gratuitas</div>
+        <div class="banner">
+            <div class="elemento">Descubre #5estrellasPcComponentes</div>
+            <div class="elemento">Envíos gratuitos a partir de 50€</div>
+            <div class="elemento">Devoluciones gratuitas</div>
         </div>
-        <div>PC Componentes</div>
-        <div class="busqueda">Busca en PC Componentes</div>
-        <div class="compromismos">Compromisos</div>
-        <div class="cuenta">Mi cuenta</div>
-        <div class="carrito">Mi carrito</div>
+        <div class="cabecera">
+            <div id="logo">
+                <img src="https://cdn.pccomponentes.com/img/logos/logo-pccomponentes.svg" alt="PCComponentes"
+                    title="PCComponenetes">
+            </div>
+            <div class="busqueda">
+                Busca en PC Componentes...
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="boton">
+                <i class="fa-solid fa-certificate"></i>
+                Compromisos
+            </div>
+            <div class="boton">
+                <i class="fa-regular fa-user"></i>
+                Mi cuenta
+            </div>
+            <div class="boton">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Mi carrito
+            </div>
+        </div>
+
     </header>
 
-    <div>
+    <div id="enunciados-cabecera">
         <div>Todas las categorías</div>
         <div>Tu <span>tienda online experta en tecnología</span> con un servicio 5 estrellas</div>
         <div>Ofertas TOP verano</div>
     </div>
 
-        <div id="botonera">
-            <div class="boton-superior">
-                <i class="fa-solid fa-tag"></i>
-                Ofertas
-                <i class="fa-solid fa-angle-right"></i>
-            </div>
-            <div class="boton-superior">
-                <i class="fa-solid fa-desktop"></i>
-                Diseña tu PC
-                <i class="fa-solid fa-angle-right"></i>
-            </div>
-            <div class="boton-superior">
-                <i class="fa-solid fa-gift"></i>
-                Promociones
-                <i class="fa-solid fa-angle-right"></i>
-            </div>
-            <div class="boton-superior">
-                <i class="fa-solid fa-arrows-spin"></i>
-                Outlet
-                <i class="fa-solid fa-angle-right"></i>
-            </div>
+    <div id="botonera">
+        <div class="boton-superior">
+            <i class="fa-solid fa-tag"></i>
+            Ofertas
+            <i class="fa-solid fa-angle-right"></i>
         </div>
+        <div class="boton-superior">
+            <i class="fa-solid fa-desktop"></i>
+            Diseña tu PC
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div class="boton-superior">
+            <i class="fa-solid fa-gift"></i>
+            Promociones
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div class="boton-superior">
+            <i class="fa-solid fa-arrows-spin"></i>
+            Outlet
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+    </div>
 
     <div id="categorias">
         <h2>Categorías <span>más relevantes</span></h2>
@@ -88,7 +112,8 @@
     <section>
         <h2>Artículos <span>recomendados</span></h2>
         <div class="producto">
-            <img src="./imagenes/1698-newskill-kitsune-zephyr-series-silla-gaming-acabada-en-tela-gris-blanco.jpg" alt="">
+            <img src="./imagenes/1698-newskill-kitsune-zephyr-series-silla-gaming-acabada-en-tela-gris-blanco.jpg"
+                alt="">
             <div class="nombre">
                 Newskill Takamikura Silla Gaming
             </div>
