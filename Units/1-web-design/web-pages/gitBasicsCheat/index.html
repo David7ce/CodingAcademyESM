@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos basicos GIT</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./img/x.svg" alt="">
+            Gitkraken
+        </div>
+        <div>Hoja de Referencia: Conceptos básicos de Git</div>
+        <img src="./img/learn-git-keif.svg" alt="">
+        <img src="./img/header.png" alt="Encabezado">
+    </header>
+    <div id="box">
+
+        <div id="left">
+            <div id="config">
+                <h2>Git Config</h2>
+                <p>Establece la información de usuario para que se utilice en el historial de confirmaciones.</p>
+                <p>Establece el nombre que desee utilizar en las confirmaciones.</p>
+                <p id="gitComand"> $ git config --global user.name "[name]"</p>
+
+                <p>Establece el correo que desee utilizar en las confirmaciones.</p>
+                <p id="gitComand">$ git config --global user.email "[direccion email]"</p>
+
+                <p>Habilita los colores en la salida de las línea de comandos.</p>
+                <p id="gitComand">$ git config --global color.ui auto</p>
+            </div>
+            <div id="clon">
+                <h2>Crear y clonar repositorios</h2>
+                <p>Puede crear un nuevo repositorio de git localmente o hacer una copia de un repositorio existente
+                    online para trabajar.
+                </p>
+                <p id="gitComand">$ git init</p>
+                <p>
+                    El comando <span>git init</span> convierte la carpeta donde se ejecutó el comando en un nuevo
+                    repositorio de Git al agregar una carpeta .git e indica a Git que comience a buscar cambios.
+                </p>
+                <p id="gitComand">$ git clone "[url]"</p>
+                <p>
+                    El comando clone descarga una copia de un repositrio desde un servidor remoto o un servicio como
+                    <span>Github</span>, <span>GitLab</span> o <span>Bitbucket</span>. Esto incluye todos los archivos y
+                    confirmaciones, así como las conexiones a todas las ramas remotas.
+                </p>
+            </div>
+
+            <div id="cambios">
+                <h2>Haciendo Cambios</h2>
+                <p>Git facilita el seguimiento de los cambios en los archivos a lo largo del tiempo. Una vez que haya
+                    inicializado o clonado un repositorio, todos sus cambios se encontrarán en un estado de trabajo en
+                    proceso y Git podrá ver que cambis se han realizado. Sin embargo, para que Git realice un
+                    sesguimiento de una instatánea de sus cambios, deberá añadir y confirmar su trabajo.</p>
+                <p id="gitComand">$ git add [file]</p>
+                <p>Prepara un solo archivo para su confirmación.</p>
+                <p id="gitComand">$ git add .</p>
+                <p>Prepara todos los archivos modificados en la carpeta actual para su confirmación.</p>
+                <p id="gitComand">$ git commit -m "[comentario descriptivo]"</p>
+                <p>Hace un registro permanente de las instatáneas de los archivos que se encuentran en el historial de
+                    versiones e incluye un breve mensaje sobre lo que ha cambiado. Nota: Si ejecutas <span>git
+                        Commit</span> sin <span>-m</span>, se encontrará en el editor de texto por defecto de tu
+                    terminal, normalmente es <span>vim</span>. Desde aquí podrás escribir un mensaje de confirmación,
+                    guarde y salga del editor para completar la confirmación.</p>
+
+            </div>
+
+            <div id="cambios">
+                <h2>Visualizar cambios</h2>
+                <p>Git ofrece una gran visibilidad del estado de su trabajo actual, su historial de confirmaciones y los
+                    detalles de estos cambios.</p>
+                <p id="gitComand">$ git status</p>
+                <p>Muestra información sobre el estado en el que se encuentra Git, incluyendo en qué rama se encuentra y
+                    asío está al día con los repositorios remotos.</p>
+                <p id="gitComand">$ git log</p>
+                <p>Muestra el historial de versiones de la rama actual, incluyendo el mensaje de confirmación completo,
+                    el autor, la hora de la confirmación y el hash de la confirmación.</p>
+                <p id="gitComand">$ git log --online</p>
+                <p>Muestra un historial de versiones abreviado para la rama actual, mostrando solo la primera línea del
+                    mensaje de confirmación y el hash de confirmación.</p>
+                <p id="gitComand">$ git diff</p>
+                <p>Muestra todos los cambios en los archivos que aún no se han puesto en preparación.</p>
+                <p id="gitComand">$ git show [commit]</p>
+                <p>Muestra los metadatos y los cambios de contenido de la confirmación especificada. La confirmación se
+                    identifica con un hash, que es un número de identificación único generado cuando se realizan las
+                    confirmaciones.
+                </p>
+            </div>
+
+            <h2>El fichero .gitignore</h2>
+            <p>Hay cientos de archivos que tal vez no quiera rastrear, commo las imágene y los vídeos o los archivos que
+                contienen información sensible como las credenciales <span>.gitignore</span>. Dentro de este archivo
+                puede enumerar los archivos individuales a ignorar o utilizar el comodín *para excluir todos los
+                archivos, tales como *.jpg o *.mp4.</p>
+
+        </div>
+        <div id="right">
+            <h2>Deshacer cambios y commits </h2>
+            <p>Hay dos formas principales de realizar cambios en el historial de confirmaciones.</p>
+
+            <p id="gitComand">$ git revert [commit]</p>
+            <p>Normalmente se hace al más reciente <b>[commit]</b>, <span>revert</span> hace una nueva confirmación que
+                deshae todos los cambios de la confirmación indicada.
+            </p>
+
+            <p id="gitComand">$ git reset [commit] </p>
+            <p>Deshace el <b>[commit]</b> y mantiene los cambios en local. Es muy poderoooso, conlleva un alto riesgo de
+                conflictos en la fusión si ha realizado muchos cambios desde esa confirmación.</p>
+
+            <p id="gitComand">$ git reset --hard </p>
+            <p>Descaraga todos los cambios locales del trabajo en curso y restablece todos los archivos al estado en que
+                se encontraban en el último <b>[commit]</b>.</p>
+
+            <h2>Contectar a Repositorios Remotos</h2>
+            <p>Los repositorios locales pueden tener conexiones con uno o más repositorios remotos para introducir
+                cambios o extraerlos. Si clona un repositorio, la URL remota desde la que clonó se establecerá
+                automáticamente <b>origin</b> como nombre remoto.
+            </p>
+            <p id="gitComand">$ git remote add [remote name] [url]</p>
+            <p> Especifica el repositorio remoto para tu repositorio local. La dirección <b>[url]</b> apunta a un
+                repositorio en un servidor o servicio remoto como GitHub, GitLab o Bitbucket</p>
+
+            <h2>Sincronizar cambios</h2>
+            <p>Sincroniza tu repositorio local con el repositorio remoto.</p>
+            <p id="gitComand">$ git push [remote name] [branch]</p>
+            <p>Sube todos los cambios locales de tu historial local a tu rama remota y con un nombre especificado.</p>
+
+            <p id="gitComand">$ git fetch </p>
+            <p>Descarga todos historiales de la rama remota pero no los aplica automáticamente.</p>
+
+            <p id="gitComand">$ git merge </p>
+            <p>Combina el historial obtenido de la rama remota en tu actual rama local.</p>
+
+            <p id="gitComand">$ git pull</p>
+            <p>Actualiza tu rama de trabajo local con todos los nuevos cambios de la rama remota correspondiente.
+                <span>git pull</span> es una combianción de <span>git fetch</span> y <span>git merge</span>.
+            </p>
+
+            <h2>Ramassss</h2>
+            <p>Las ramas te permiten hacer confirmaciones que no afecten a otro trabajo hasta que estés listo para
+                aplicar estos cambios. Cualquier confirmación se hará en la rama que tengas actualmente "seleccionada" y
+                no en la rama 'main' o 'master'. Siempre puedes usar <b>git status</b> para ver en qué rama estas.</p>
+            <p id="gitComand">$ git branch [branch-name]</p>
+            <p>Crea una nueva rama. Por ejemplo: <b>git branch feature-A</b></p>
+            <p id="gitComand">$ git checkout [branch-name]</p>
+            <p>Cambia a la rama especificada y actualiza los documentos para utilizar esta versión.</p>
+
+            <h3>Diagrama de ramificacion de Git</h3>
+            <p><img id="diagram" src="./img/diagrama.png" alt="Diagrama de ramas"></p>
+
+            <p id="gitComand">$ git merge [branch-name]</p>
+            <p>Combina el historial de la rama especificada con la rama atual <b>[branch-name]</b> en la rama que
+                actualmente se ha seleccionado.
+            </p>
+
+            <p id="gitComand">$ git branch -d [branch-name]</p>
+            <p>Elimina la rama especificada.</p>
+            <a href="https://www.gitkraken.com/learn/git">
+                <img id="logo" src="./img/logo.png" alt="logo">
+            </a>
+
+            <div id="gitkraken-comentario">
+                <div class="bocadillo">
+                    <h4>Más información sobre los comandos de Gt y conceptos en:</h4>
+                    <a href="https://gitkraken.com/learn/git">gitkraken.com/learn/git</a>
+                </div>
+                <div id="lear-git-keif">
+                    <img src="./img/learn-git-keif.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    <footer><img src="./img/footer.png" alt="Pie de pagina"></footer>
+
+
+
+</body>
+
+</html>
