@@ -11,17 +11,20 @@
 
 <body>
     <header>
-        <div>
-            <img src="./img/x.svg" alt="">
-            Gitkraken
+        <div id="logo-gitkraken">
+            <img src="./img/x.svg" alt="Logo Gitkraken">
+            <h2>Gitkraken</h2>
         </div>
-        <div>Hoja de Referencia: Conceptos básicos de Git</div>
-        <img src="./img/learn-git-keif.svg" alt="">
-        <img src="./img/header.png" alt="Encabezado">
+        <div id="titular">
+            <h1 id="titulo">Hoja de Referencia: Conceptos básicos de Git</h1>
+            <div class="git-keif">
+                <img src="./img/learn-git-keif.svg" alt="">
+            </div>
+        </div>
     </header>
-    <div id="box">
 
-        <div id="left">
+    <div id="caja">
+        <div id="izquierda">
             <div id="config">
                 <h2>Git Config</h2>
                 <p>Establece la información de usuario para que se utilice en el historial de confirmaciones.</p>
@@ -100,7 +103,7 @@
                 archivos, tales como *.jpg o *.mp4.</p>
 
         </div>
-        <div id="right">
+        <div id="derecha">
             <h2>Deshacer cambios y commits </h2>
             <p>Hay dos formas principales de realizar cambios en el historial de confirmaciones.</p>
 
@@ -142,7 +145,7 @@
                 <span>git pull</span> es una combianción de <span>git fetch</span> y <span>git merge</span>.
             </p>
 
-            <h2>Ramassss</h2>
+            <h2>Ramas</h2>
             <p>Las ramas te permiten hacer confirmaciones que no afecten a otro trabajo hasta que estés listo para
                 aplicar estos cambios. Cualquier confirmación se hará en la rama que tengas actualmente "seleccionada" y
                 no en la rama 'main' o 'master'. Siempre puedes usar <b>git status</b> para ver en qué rama estas.</p>
@@ -161,16 +164,14 @@
 
             <p id="gitComand">$ git branch -d [branch-name]</p>
             <p>Elimina la rama especificada.</p>
-            <a href="https://www.gitkraken.com/learn/git">
-                <img id="logo" src="./img/logo.png" alt="logo">
-            </a>
 
             <div id="gitkraken-comentario">
-                <div class="bocadillo">
-                    <h4>Más información sobre los comandos de Gt y conceptos en:</h4>
-                    <a href="https://gitkraken.com/learn/git">gitkraken.com/learn/git</a>
+                <div id="bocadillo">
+                    <h5>Más información sobre los comandos de Git y conceptos en:
+                        <a href="https://gitkraken.com/learn/git">gitkraken.com/learn/git</a>
+                    </h5>
                 </div>
-                <div id="lear-git-keif">
+                <div id="git-keif">
                     <img src="./img/learn-git-keif.svg" alt="">
                 </div>
             </div>
@@ -179,10 +180,10 @@
     </div>
 
     </div>
-    <footer><img src="./img/footer.png" alt="Pie de pagina"></footer>
-
-
-
+    <footer>
+        <h3 class="pie">Descarga GitKraken, la mejor interfaz gráfica del mercado para usuarios de Git y simplifique su flujo de trabajo. Comience gratis en Gitkraken.com</h3>
+        <button id="boton-gitkraken" type="button">Descarga GitKraken Cliente</button> 
+    </footer>
 </body>
 
 </html>

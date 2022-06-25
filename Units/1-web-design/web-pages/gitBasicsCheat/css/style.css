@@ -1,18 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500&display=swap');
 
-/*-----------------REGLAS GENERALES-----------------*/
-body {
-    padding: 0;
-    width: min-content;
-    margin: auto;
-}
+/*-----------------REGLAS GENERALES (por orden de escritura) -----------------*/
 
-header {
+body {
+    width: 1150px;
+    margin: auto;
     font-family: 'Lexend Deca', sans-serif;
 }
 
-#box{
-    padding:0;
+/*------------------- ENCABEZADO--------------------*/
+
+header {
+    align-items: center;
+    background-image: linear-gradient(rgb(101, 79, 121), rgb(182, 60, 133));
+    color: bisque;
+    height: 200px;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+#logo-gitkraken {
+    padding: 50px 0 0 50px;
+}
+
+#logo-gitkraken img {
+    height: 55px;
+    float: left;
+}
+
+#logo-gitkraken h2 {
+    margin-top: 12px;
+    font-size: 28px;
+}
+
+#titular {
+    display: flex;
+}
+
+#titulo {
+    margin: 2px 0 0 55px;
+}
+
+.git-keif img {
+    height: 190px;
+    width: auto;
+    margin: -75px 0 0 42px;
+}
+
+/*-------------------- CUERPO-----------------------*/
+
+#izquierda {
+    margin: 0;
+    width: 48%;
+}
+
+#derecha {
+    margin: 0;
+    width: 48%;
+}
+
+
+#caja {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -21,18 +69,19 @@ header {
 p {
     text-align: justify;
 }
+
 b {
-    color:red;
+    color: #ed2a65;
 }
 
 #gitComand {
     padding: 2%;
-    background-color: rgb(219, 217, 214);
-    color: red;
-
+    color: #ed2a65;
+    background-color: #e8edee;
 }
+
 #logo {
-    height:auto;
+    height: auto;
     width: 50%;
     margin-left: 50%;
 }
@@ -45,34 +94,74 @@ span {
     border-right: 1px;
     border-style: solid;
     border-radius: 15%;
-    border-color: red;
+    border-color: #ed2a65;
     background-color: rgb(219, 217, 214);
 }
 
-/*------------------- ENCABEZADO--------------------*/
-
-header {
-   align-items: center;
-   padding: 0;
-
+#bocadillo {
+    height: 144px;
+    width: 220px;
+    border: 1px solid #cad0e7;
+    border-radius: 20px;
+    margin-left: 150px;
+    padding: 0 10px 0 15px;
+    font-size:larger;
 }
 
-/*-------------------- CUERPO-----------------------*/
-
-#left {
-    margin: 0;
-    width: 48%;
-
+/*
+p.thought {
+	width: 300px;
+	border-radius: 200px;
+	padding: 30px;	
 }
+p.bubble:before,
+p.bubble:after {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+p.speech:before {
+	left: 30px;
+	bottom: -50px;
+	border: 25px solid;
+	border-color: #333 transparent transparent #333;
+}
+p.speech:after {
+	left: 38px;
+	bottom: -30px;
+	border: 15px solid;
+	border-color: #fff transparent transparent #fff;
+}
+*/
 
-#right{
-    margin: 0;
-    width: 48%;
-
+#git-keif img {
+    height: 150px;
+    width: auto;
+    float: right;
+    margin-right: 206px;
 }
 
 /*----------------- PIE DE PAGINA ------------------*/
 
 footer {
+    height: 220px;
     margin-top: auto;
+    align-items: center;
+    background-image: linear-gradient(rgb(101, 79, 121), rgb(182, 60, 133));
+    color: bisque;
+}
+
+
+
+footer h3 {
+    padding: 40px 0 0 62px;
+    font-size:x-large;
+}
+
+#boton-gitkraken {
+    height: 50px;
+    background-color: rgb(255, 225, 0);
+    border-radius: 12%;
+    font-size: larger;
 }

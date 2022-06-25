@@ -1,0 +1,419 @@
+--SELECTORES
+  _Basicos
+    -Universal: todos los elementos
+	{
+ 	margin: 0;
+ 	padding: 0;
+	}
+
+    -De tipo o etiqueta: elementos de la página cuya etiqueta HTML coincide con el valor del selector
+	p {
+ 	...
+	}
+
+    -Descendiente: elementos que se encuentran dentro de otros elementos
+	p span { color: red; }
+	p * a { color: red; } todos los elementos de tipo a que se encuentran dentro de cualquier p
+
+    -De clase: usa atributo class
+	<body>
+	<p class="destacado">Lorem ipsum dolor sit amet...</p>
+ 	<p>Nunc sed lacus et est adipiscing accumsan...</p>
+ 	<p>Class aptent taciti sociosqu ad litora...</p>
+	</body>
+	.destacado {
+	padding: 0.5em;
+	border: 1px solid #98be10;
+ 	background: #f6feda;
+	}
+	p.aviso { ... }  Todos los elementos de tipo "p" con atributo class="aviso" 
+	
+   -De ID
+	<p>Primer párrafo</p>
+	<p id="destacado">Segundo párrafo</p>
+	<p>Tercer párrafo</p>	
+	#destacado { color: red; }
+
+  _Avanzados
+	-De hijos: obliga a que el elemento <span> sea hijo directo de un elemento <p>;
+	p > span { color: blue; }
+
+	-Adyacente: elementos hermanos (mismo padre), aparezca después de elemento1;
+	h1 + h2 { color: red }
+	p + p { text-indent: 1.5em; }
+
+	-De atributos
+	Se muestran de color azul todos los enlaces que tengan
+ 	un atributo "class" con el valor "externo"
+	a[class="externo"] { color: blue; }
+
+	Selecciona todos los elementos de la página cuyo atributo "lang" sea igual a "en", es decir, todos los elementos en inglés 
+ 	*[lang=en] { ... }
+	
+	/*
+	Elemento bloque su caja ocupa el 100% del ancho de la página
+	Elemento en línea solo su espacio
+	Colores: teal, red, blue, orange, purple, olive, fuchsia y green 
+   	En Hexadecimal: grey = c0c0c0
+	*/
+
+--MODELO DE CAJAS
+  Las cajas de una página se crean automáticamente. Cada vez que se inserta una etiqueta HTML, se crea una neva caja rectangular que encierra los contenidos de ese elemento.
+
+  _Altura
+    #cabecera { height: 60px; }
+	<div id="cabecera">
+ 	...
+	</div>
+
+  _Anchura
+	#lateral { width: 200px; }
+    <div id="lateral">
+ 	...
+	</div>
+
+  _Margen (top, bottom (para bloques e imágenes), left and right (márgenes laterales cualquier elemento))
+    .destacado {
+ 	margin-left: 2em;}
+    <p class="destacado">Vestibulum lectus diam, luctus vel, venenatis ultrices,
+	cursus vel, tellus. Etiam placerat erat non sem. Nulla molestie odio non
+	nisl tincidunt faucibus.</p>
+
+	div img {
+	margin-top: .5em;
+ 	margin-bottom: .5em;
+ 	margin-left: 1em;
+ 	margin-right: .5em;
+	}
+
+	div img {
+ 	margin: .5em .5em .5m 1em;
+	}
+
+	div img {
+ 	margin: .5em;
+ 	margin-left: 1em;
+	}
+    
+    Orden asignación márgenes: superior, derecho, inferior y izquierdo (sentido horario)
+    En el caso de un elemento que se encuentra en el interior de otro y sus márgenes se fusionan de forma automática, se puede evitar este comportamiento añadiendo un pequeño relleno (padding: 1px) o un borde (border: 1px solid transparent) al elemento contenedor.
+    
+	.relleno {
+ 	padding-top: 2em; padding-right: 2em; padding-bottom: 2em; padding-left: 2em;
+	}
+    <p class="relleno">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+	Cras vitae dolor eu enim dignissim lacinia. Maecenas blandit. Morbi mi.</p>
+
+  _Bordes
+	div {
+ 	border-top-width: 10px;
+ 	border-right-width: 1em;
+ 	border-bottom-width: thick;
+ 	border-left-width: thin;
+	}
+
+	p { border-width: thin }  p { border-width: thin thick }  p { border-width: thin thick medium }     p { border-width: thin thick medium thin }
+
+  _Color
+	div {
+ 	border-top-color: #CC0000;
+ 	border-right-color: blue;
+ 	border-bottom-color: #00FF00;
+ 	border-left-color: #CCC;
+	}
+
+  _Estilo bordes ( none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset | inherit )
+	div {
+ 	border-top-style: dashed;
+ 	border-right-style: double;
+ 	border-bottom-style: dotted;
+ 	border-left-style: solid;
+	}
+
+	div {
+ 	border-top: 1px solid #369;
+ 	border-bottom: 3px double #369;
+	}
+
+	div {
+ 	width: 300px;
+ 	padding-left: 50px;
+ 	padding-right: 50px;
+ 	margin-left: 30px;
+ 	margin-right: 30px;
+ 	border: 10px solid black;
+	}
+
+  _Fondos
+	body {
+ 	background-color: #F5F5F5;
+	}
+
+	Imagen de fondo.
+	body { background-image: url("imagenes/fondo.png") }
+	
+	#hdr {
+ 	background: url("/images/ds.gif") repeat-x;
+ 	width: 100%;
+ 	text-align: center;
+	}
+
+	.wide #content-secondary {
+ 	width: 272px;
+ 	margin: 13px 0 0 0;
+ 	position: relative;
+ 	margin-left: -8px;
+	background: url("./graphics/wide/bg-content-secondary.gif") repeat-y;
+	}
+
+	#caja1 {
+ 	background-image: url("images/help.png");
+ 	background-repeat: no-repeat;
+ 	background-position: bottom left;
+	}
+
+	Fijar fondo: background-attachment   scroll | fixed | inherit
+    Color e imagen de fondo de la página mediante una propiedad shorthand
+	body { background: #222d2d url(./graphics/colorstrip.gif) repeat-x 0 0; }
+
+	body {
+ 	background-color: #222d2d;
+ 	background-image: url("./graphics/colorstrip.gif");
+ 	background-repeat: repeat-x;
+	background-position: 0 0;}
+
+
+--TEXTO
+  _Tipografía (color, font-family, font-weight, font-style, font-variant, text-allign, text-decoration, text-transform)
+
+	h1 { color: #369; }
+	p { color: black; }
+	a, span { color: #B1251E; }
+	div { color: rgb(71, 98, 176); }
+	div {font-family: Arial, Helvetica, sans-serif;}
+
+	#especial strong {
+ 	font-weight: normal;
+ 	background-color: #FFFF66;
+ 	padding: 2px;
+	}
+	<p id="especial">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+	Ut in purus ac <em>libero nonummy vestibulum</em>. Nullam molestie, nunc id
+	nonummy laoreet, <strong>tortor diam mollis elit</strong>, quis hendrerit
+	libero lorem vitae nunc.</p>
+
+    Reglas equivalentes
+	p { line-height: 1.2; font-size: 1em }
+	p { line-height: 1.2em; font-size: 1em }
+	p { line-height: 120%; font-size: 1em }
+
+
+--ENLACES
+	a { margin: 1em 0; display: block;}
+	.alternativo {color: #CC0000;}
+	.simple {text-decoration: none;}
+	.importante {font-weight: bold; font-size: 1.3em;}
+	.raro {text-decoration:overline;}
+	<a href="#">Enlace con el estilo por defecto</a>
+	<a class="alternativo" href="#">Enlace de color rojo</a>
+	<a class="simple" href="#">Enlace sin subrayado</a>
+	<a class="importante" href="#">Enlace muy importante</a>
+	<a class="raro" href="#">Enlace con un estilo raro</a>
+
+    (:link, :visited:, :hover, :active)
+	a:hover { text-decoration: none; }
+
+	a { margin: 1em 0; float: left; clear: left; text-decoration: none;}
+	.simple {text-decoration: underline;}
+	.color { border-bottom: medium solid #CC0000;}
+	.ancho {border-bottom: thick solid;}
+	.separado {border-bottom: 1px solid; padding-bottom: .6em;}
+	.discontinuo {border-bottom: thin dashed;}
+	<a class="simple" href="#">Enlace con el estilo por defecto</a>
+	<a class="color" href="#">Enlace un subrayado de otro color</a>
+	<a class="ancho" href="#">Enlace con un subrayado muy ancho</a>
+	<a class="separado" href="#">Enlace con un subrayado muy separado</a>
+	<a class="discontinuo" href="#">Enlace con un subrayado discontinuo</a>
+
+   _Imágenes en enlace
+	.pdf {
+ 	padding: 0 0 0 22px;
+ 	background: #FFF url(imagenes/pdf.png) no-repeat left center;
+	}
+	<a class="pdf" href="#">Enlace a un documento PDF</a>
+
+   _Enlaces botón
+	a { margin: 1em 0; float: left; clear: left; }
+	a.boton {
+ 	text-decoration: none;
+ 	background: #EEE;
+ 	color: #222;
+ 	border: 1px outset #CCC;
+ 	padding: .1em .5em;
+	}
+	a.boton:hover {
+ 	background: #CCB;
+	}
+	a.boton:active {
+ 	border: 1px inset #000;
+	}
+	<a class="boton" href="#">Guardar</a>
+	<a class="boton" href="#">Enviar</a>
+
+
+--LISTAS
+  list-style-type,  list-style-position, list-style-image
+
+	<ul style="list-style-type: square">
+ 	<li>list-style-type: square</li>
+ 	<li>Elemento</li>
+ 	<li>Elemento</li>
+	</ul>
+	<ol style="list-style-type: lower-roman">
+ 	<li>list-style-type: lower-roman</li>
+ 	<li>Elemento</li>
+ 	<li>Elemento</li>
+	</ol>
+	<ol style="list-style-type: decimal-leading-zero; padding-left: 2em;">
+	<li>list-style-type: decimal-leading-zero</li>
+ 	<li>Elemento</li>
+ 	<li>Elemento</li>
+	</ol>
+
+	ul { list-style: url(imagenes/cuadrado_rojo.gif) square; }	
+
+   _Menú
+    Menú vertical
+	ul.menu {
+ 	width: 180px;
+ 	list-style: none;
+ 	margin: 0;
+ 	padding: 0;
+ 	border: 1px solid #7C7C7C;
+ 	border-bottom: none;
+	}
+	ul.menu li {
+ 	border-bottom: 1px solid #7C7C7C;
+ 	border-top: 1px solid #FFF;
+ 	background: #F4F4F4;
+	}
+
+    Menú horizontal
+	ul.menu {
+ 	clear: both;
+ 	float: left;
+ 	width: 100%;
+ 	list-style: none;
+ 	margin: 0;
+ 	padding: 0;
+ 	border-left: 1px solid #7C7C7C;
+	}
+	ul.menu li {
+ 	float: left;
+	}
+	ul.menu li a {
+ 	padding: .3em;
+ 	display: block;
+ 	text-decoration: none;
+ 	color: #333;
+ 	background: #F4F4F4;
+ 	border-top: 1px solid #7C7C7C;
+ 	border-right: 1px solid #7C7C7C;
+ 	border-bottom: 1px solid #9C9C9C;
+	}
+
+
+--TABLAS
+	.normal {
+ 	width: 250px;
+ 	border: 1px solid #000;
+	}
+	.normal th, .normal td {
+ 	border: 1px solid #000;
+	}
+	<table class="normal" summary="Tabla genérica">
+ 	<tr>
+ 	 <th scope="col">A</th>
+ 	 <th scope="col">B</th>
+ 	 <th scope="col">C</th>
+ 	 <th scope="col">D</th>
+ 	 <th scope="col">E</th>
+ 	</tr>
+ 	 ...
+	</table>
+
+   _Bordes de tabla ( border-collapse, border-spacing  )
+	.normal {
+ 	width: 250px;
+ 	border: 1px solid #000;
+ 	border-collapse: collapse;
+	}
+	.normal th, .normal td {
+ 	border: 1px solid #000;
+	}
+	<table class="normal" summary="Tabla genérica">
+ 	<tr>
+ 	 <th scope="col">A</th>
+ 	 <th scope="col">B</th>
+ 	 <th scope="col">C</th>
+ 	 <th scope="col">D</th>
+ 	 <th scope="col">E</th>
+ 	</tr>
+ 	 ...
+	</table>
+
+  _Estilos avanzados ( empty-cells, caption-side )
+	.especial {
+ 	caption-side: bottom;
+	}
+	<table class="especial" summary="Tabla genérica">
+ 	 <caption>Tabla 2.- Título especial</caption>
+ 	 <tr>
+ 	 <td>1</td>
+ 	 <td>2</td>
+ 	 <td>3</td>
+ 	 </tr>
+ 	 ...
+	</table>
+_____________________________________________________________________________________________________
+ /* EN HTML */
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="estilos.css" media="screen">
+ </head>
+_____________________________________________________________________________________________________
+/* EN CSS  (en el archivo estilos.css) */
+
+body{
+  background:#000000;
+  background-color: #DBC9A6;
+  color:#fff;
+
+  clear: left;
+  float: left;
+  display: block;
+  list-style: none;
+  text-decoration: none;
+
+  height: 22em;
+  width: 22em;
+
+  border(top, left, bottom, right): 3em solid #7C7C7C;
+  margin(top, left, bottom, right): 3em;
+  padding(top, left, bottom, right): 3em;
+  padding(top, left, bottom, right): 3em;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2; font-size: 1em;
+  text-align: center;
+
+  position: relative;
+  top: 22em;
+  left: 40em;
+  bottom: 10em;
+  right: 10em;
+ }
+
+
+ overflow: hidden; oculta lo de fuera de la caja
+ object-fit: cover; redimensiona la imagen a la caja contenedora 
