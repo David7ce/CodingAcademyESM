@@ -1,6 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Forma general */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Vollkorn', serif;
+}
+
 main {
     display: flex;
     flex-direction: row;
+}
+
+/* Columna izquierda */
+.columna-izquierda {
+    background-color: #ffffff;
+    width: 70%;
+    padding: 50px;
+    color: #404040;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
 }
 
 .avatar {
@@ -13,11 +37,6 @@ main {
     box-shadow: 40%;
 }
 
-header {
-    display: flex;
-    align-items: center;
-}
-
 .intro {
     margin-left: 5px;
     margin-right: auto; 
@@ -25,7 +44,8 @@ header {
 
 .intro p {
     margin-left: 99px;
-    margin-right: 55px; 
+    margin-right: 55px;
+    font-style: italic;
 }
 
 h1 {
@@ -39,16 +59,17 @@ h1 {
     color: rgb(44, 37, 37);
 }
 
-.columna-izquierda {
-    background-color: rgba(255, 216, 193, 0.585);
-    width: 70%;
-    padding: 12px;
+.formacion, .experiencia, .reconocimmientos {
+    padding-left: 50px;
 }
 
+
+/* Columna derecha */
 .columna-derecha {
-    background-color: rgb(255, 253, 206);
+    background-color: #404040;
+    color:#f2f2f2;
     width: 30%;
-    padding: 12px;
+    padding: 32px;
 }
 
 .datos-perfil ul {
@@ -70,4 +91,8 @@ strong {
 span {
     color: rgb(13, 13, 38);
     font-weight: 700;
+}
+
+.herramientas ul {
+    list-style: none;
 }

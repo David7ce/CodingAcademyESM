@@ -1,0 +1,11 @@
+header {
+    height: 300px;
+    background-size: cover;
+    padding-top: 50px;
+    background-size: cover;
+    background-position: center center;
+}
+
+ol li{
+    margin-bottom: 15px;
+}
