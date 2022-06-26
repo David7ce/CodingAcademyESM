@@ -11,12 +11,12 @@ body {
 /*------------------- ENCABEZADO--------------------*/
 
 header {
-    align-items: center;
-    background-image: linear-gradient(rgb(101, 79, 121), rgb(182, 60, 133));
-    color: bisque;
     height: 200px;
     width: auto;
     margin-bottom: 30px;
+    align-items: center;
+    background-image: linear-gradient(rgb(101, 79, 121), rgb(182, 60, 133));
+    color: bisque;
 }
 
 #logo-gitkraken {
@@ -88,13 +88,9 @@ b {
 
 span {
     padding: 0.4%;
-    border-top: 1px;
-    border-bottom: 1px;
-    border-left: 1px;
-    border-right: 1px;
+    border: 1px solid #ed2a65;
     border-style: solid;
     border-radius: 15%;
-    border-color: #ed2a65;
     background-color: rgb(219, 217, 214);
 }
 
@@ -103,11 +99,14 @@ span {
     width: 220px;
     border: 1px solid #cad0e7;
     border-radius: 20px;
-    margin-left: 150px;
-    padding: 0 10px 0 15px;
+    margin: 0 0 0 150px;
+    padding-left: 19px;
+    padding-right: 19px;
+
     font-size:larger;
 }
 
+/* Hacer esquina de bocadillo comic*/
 /*
 p.thought {
 	width: 300px;
@@ -150,18 +149,30 @@ footer {
     align-items: center;
     background-image: linear-gradient(rgb(101, 79, 121), rgb(182, 60, 133));
     color: bisque;
+    
 }
-
-
 
 footer h3 {
     padding: 40px 0 0 62px;
     font-size:x-large;
+    text-align:center;
+}
+
+#twitter {
+    margin-left: 22px;
+}
+
+.fa-twitter {
+    color:#2aa8de;
 }
 
 #boton-gitkraken {
     height: 50px;
     background-color: rgb(255, 225, 0);
-    border-radius: 12%;
+    border: 1px solid black;
+    border-radius: 5px;
     font-size: larger;
+    text-decoration:solid;
+    margin-left: 40%;
+    margin-top: -280px;
 }
