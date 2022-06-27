@@ -78,3 +78,13 @@
 - https://babakfakhamzadeh.com/
 
 - HTML CSS Support: https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css
+
+- https://evilmartians.com/
+
+- https://lesscss.org/
+
+- https://imjignesh.com/how-to-use-display-flex-css/
+
+- https://webpack.js.org/
+
+- https://parceljs.org/

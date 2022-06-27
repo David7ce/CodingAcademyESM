@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    padding: 0;
 }
 
 img {
@@ -27,41 +28,50 @@ img {
     justify-content: space-around;
 }
 
-#logo img {
-    height: 20px;
+#logo {
+    padding-left: 1em;
 }
 
-.row {
+#logo img {
+    height: 2em;
+}
+
+#seccion-botonera {
+    background-color: aqua;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:center;
+    justify-content: space-around;
 }
 
-.boton-superior {
+.boton {
     width: 200px;
     height: 50px;
     border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:center;
     margin: 10px;
-    align-items: center;
+    text-align: center;
+}
+
+
+/* Footer */
+.footer {
 }
 
 .links-footer {
-    margin-left: 2px;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color: orange;
 }
 
 .links-footer ul {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .bold {
@@ -71,10 +81,10 @@ img {
 
 footer p {
     text-align: center;
+    font-size: smaller;
 }
 
 /*
-
 h2 {
     text-transform: capitalize;
 }
