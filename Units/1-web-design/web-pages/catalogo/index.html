@@ -23,14 +23,15 @@
             <div class="elemento">Descubre #5estrellasPcComponentes</div>
             <div class="elemento">Envíos gratuitos a partir de 50€</div>
             <div class="elemento">Devoluciones gratuitas</div>
+            <div class="elemento"><i class="fa-solid fa-xmark"></i></div>
         </div>
         <div class="cabecera">
             <div id="logo">
                 <img src="https://cdn.pccomponentes.com/img/logos/logo-pccomponentes.svg" alt="PCComponentes"
                     title="PCComponenetes">
             </div>
-            <div class="boton busqueda">
-                Busca en PC Componentes...
+            <div class="busqueda">
+                <input type="select-one" placeholder="Busca en PcComponentes...">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
             <div class="boton">
@@ -46,84 +47,224 @@
                 Mi carrito
             </div>
         </div>
-
     </header>
 
-    <div id="enunciados-cabecera">
-        <div>Todas las categorías</div>
-        <div>Tu <span>tienda online experta en tecnología</span> con un servicio 5 estrellas</div>
-        <div>Ofertas TOP verano</div>
-    </div>
 
-    <div id="seccion-botonera">
-        <div class="boton grande">
-            <i class="fa-solid fa-tag"></i>
-            Ofertas
-            <i class="fa-solid fa-angle-right"></i>
-        </div>
-        <div class="boton grande">
-            <i class="fa-solid fa-desktop"></i>
-            Diseña tu PC
-            <i class="fa-solid fa-angle-right"></i>
-        </div>
-        <div class="boton grande">
-            <i class="fa-solid fa-gift"></i>
-            Promociones
-            <i class="fa-solid fa-angle-right"></i>
-        </div>
-        <div class="boton grande">
-            <i class="fa-solid fa-arrows-spin"></i>
-            Outlet
-            <i class="fa-solid fa-angle-right"></i>
-        </div>
-    </div>
+    <div class="contenedor">
 
-    <div id="categorias">
-        <h2>Categorías <span class="bold">más relevantes</span></h2>
+        <div id="enunciados-cabecera">
+            <div>
+                <i class="fa-solid fa-lines-leaning"></i>
+                <span class="bold">Todas las categorías</span>
+            </div>
+            <div>Tú <span class="bold">tienda online experta en tecnología</span> con un servicio 5 estrellas</div>
+            <div>Ofertas TOP verano</div>
+        </div>
+
+        <section id="seccion-botonera">
+            <div class="boton-grande">
+                <a href="#">
+                    <i class="fa-solid fa-tag"></i>
+                    Ofertas
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+            <div class="boton-grande">
+                <a href="#">
+                    <i class="fa-solid fa-desktop"></i>
+                    Diseña tu PC
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+            <div class="boton-grande">
+                <a href="#">
+                    <i class="fa-solid fa-gift"></i>
+                    Promociones
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+            <div class="boton-grande">
+                <a href="#">
+                    <i class="fa-solid fa-arrows-spin"></i>
+                    Outlet
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="categorias">
+            <h2>Categorías <span class="bold">más relevantes</span></h2>
+            <div class="listado-productos">
+                <div class="producto">
+                    <div class="foto-producto">
+                        <img src="./imagenes/familia-portatiles.jpg" alt="Foto de portátiles">
+                    </div>
+                    <div class="nombre"><span class="bold">Portátiles</span></div>
+                </div>
+                <div class="producto">
+                    <div class="foto-producto">
+                        <img src="./imagenes/familia-pccom.jpg" alt="Foto de PcCom">
+                    </div>
+                    <div class="nombre"><span class="bold">PcCom</span></div>
+                </div>
+                <div class="producto">
+                    <div class="foto-producto">
+                        <img src="./imagenes/familia-altavoces.jpg" alt="Foto de altavoces">
+                    </div>
+                    <div class="nombre"><span class="bold">Altavoces</span></div>
+                </div>
+                <div class="producto">
+                    <div class="foto-producto">
+                        <img src="./imagenes/familia-perifericos.jpg" alt="Foto de periféricos">
+                    </div>
+                    <div class="nombre"><span class="bold">Periféricos</span></div>
+                </div>
+                <div class="producto">
+                    <div class="foto-producto">
+                        <img src="./imagenes/familia-tablets.jpg" alt="Foto de tablets">
+                    </div>
+                    <div class="nombre"><span class="bold">Tablets</span></div>
+                </div>
+                <div class="producto">
+                    <div class="foto-producto">
+                        <img src="./imagenes/familia-tv.jpg" alt="Foto de televisores">
+                    </div>
+                    <div class="nombre"><span class="bold">Televisores</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recomendados">
+            <h2>Artículos <span class="bold">recomendados</span></h2>
+            <div class="listado-productos">
+                <div class="producto">
+                    <div class="estado">Promoción</div>
+                    <div class="foto-producto">
+                        <img src="./imagenes/1576-newskill-kitsune-zephyr-series-silla-gaming-acabada-en-tela-gris-negro.jpg"
+                            alt="">
+                    </div>
+                    <div class="nombre">Newskill Kitsune Zephyr Series Silla</div>
+                    <div class="precio"><span class="bold">189.95 €</span></div>
+                    <div class="capas-precio">
+                    </div>
+                </div>
+                <div class="producto">
+                    <div class="estado">Promoción</div>
+                    <div class="foto-producto">
+                        <img src="./imagenes/1864-asus-tuf-gaming-f15-fx506heb-hn187-intel-core-i5-11400h-16gb-512gb-ssd-rtx-3050ti-156.jpg"
+                            alt="">
+                    </div>
+                    <div class="nombre">Asus TUF Gaming F15 FX506HEB-</div>
+                    <div class="precio"><span class="bold">849€</span></div>
+                    <div class="capas-precio">
+                        <div class="precio-viejo">1199€</div>
+                        <div class="descuento">11%</div>
+                    </div>
+                </div>
+                <div class="producto">
+                    <div class="estado">Promoción</div>
+                    <div class="foto-producto">
+                        <img src="./imagenes/1402-asus-vivobook-f515ja-bq2370w-intel-core-i5-1035g1-16gb-512gb-ssd-156.jpg"
+                            alt="">
+                    </div>
+                    <div class="nombre">Asus VivoBook F515JA-BQ2370W Intel</div>
+                    <div class="precio"><span class="bold">599€</span></div>
+                    <div class="capas-precio">
+                        <div class="precio-viejo">699€</div>
+                        <div class="descuento">14%</div>
+                    </div>
+                    <div class="producto">
+                        <div class="estado">Promoción</div>
+                        <div class="foto-producto">
+                            <img src="./imagenes/1572-lenovo-ideapad-3-amd-ryzen-7-5700u-8gb-512gb-ssd-14.jpg" alt="">
+                        </div>
+                        <div class="nombre">Lenovo IdeaPad 3 14ALC6 AMD Ryzen 7</div>
+                        <div class="precio"><span class="bold">575€</span></div>
+                        <div class="capas-precio">
+                            <div class="precio-viejo">709€</div>
+                            <div class="descuento">18%</div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="interesa">
+            <h2>Seguro <span class="bold">que te interesa</span></h2>
+            <div class="listado-productos">
+                <div class="producto">
+                    <div class="estado">Promoción</div>
+                    <div class="foto-producto"><img
+                            src="./imagenes/1576-newskill-kitsune-zephyr-series-silla-gaming-acabada-en-tela-gris-negro.jpg"
+                            alt=""></div>
+                    <div class="nombre">Newskill Kitsune Zephyr Series Silla</div>
+                    <div class="precio"><span class="bold"></span></div>
+                    <div class="capas-precio">
+                        <div class="precio-viejo">189.95€</div>
+                        <div class="descuento">11%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recomendados">
+            <h2>Productos recomendados</h2>
+            <div class="listado-productos">
+                <div class="producto">
+                    <div class="foto-producto"><img src="./imagenes/1129-team-group-elite-ddr4-2666mhz-16gb-cl19.jpg"
+                            alt=""></div>
+                    <div class="nombre">Team Group Elite DDR4 266MHz 16GB CL19</div>
+                    <div class="precio"><span class="bold"></span></div>
+                    <div class="capas-precio">
+                        <div class="precio-viejo">1199€</div>
+                        <div class="descuento">11%</div>
+                    </div>
+                </div>
+                <div class="producto">
+                    <div class="foto-producto"><img
+                            src="imagenes/1844-hp-chromebook-14a-na0014ns-intel-celeron-n4020-4gb-64gb-emmc-14-opiniones.jpg"
+                            alt=""></div>
+                    <div class="nombre">HP ChromeBook 14a-na0014ns Intel Celeron N4030/4GB/64GB</div>
+                    <div class="precio"><span class="bold">249.01€<< /span>
+                    </div>
+                    <div class="capas-precio">
+                        <div class="precio-viejo">319€/div>
+                            <div class="descuento">21%</div>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <div class="foto-producto"><img src="imagenes/1455-msi-geforce-rtx-3060-gaming-x-12gb-gddr6.jpg"
+                                alt=""></div>
+                        <div class="nombre">MSI GeForce RTX 3060 GAMING X 12 GB GDDR6</div>
+                        <div class="precio"><span class="bold">459.9€</span></div>
+                        <div class="capas-precio">
+                            <div class="precio-viejo">529€</div>
+                            <div class="descuento">13%</div>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <div class="foto-producto"><img src="imagenes/1473-lg-27mp60g-b-27-ips-fullhd-freesync.jpg"
+                                alt=""></div>
+                        <div class="nombre">LG 27MP60G-B 27" IPS FullHD FreeSync</div>
+                        <div class="precio"><span class="bold">149.98€</span></div>
+                        <div class="capas-precio">
+                            <div class="precio-viejo">189€</div>
+                            <div class="descuento">20%</div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
         <div>
-            <div class="foto-producto">
-                <img src="./imagenes/familia-portatiles.jpg" alt="">
-            </div>
-            <div class="nombre">Portátiles</div>
+            <p>PC Componentes es la <strong>tienda de tecnología online líder.</strong>
+                Con servicio de calidad y atención personalizada, los clientes tienen a su disposición el <strong>mejor
+                    precio</strong> de
+                venta onlin en la más amplia variedad de productos tecnológicos:
+                entre otros componenetes, portátiles, ordenadores, periféricos, smartphones y móviles, audio,
+                fotografía,
+                redes y cables, artículos gaming, electr-hogar, tablets ebooks y consumibles.
+            </p>
         </div>
     </div>
-
-    <section>
-        <h2>Seguro que <span class="bold">te interesa</span></h2>
-        <div class="producto">
-            <div class="estado">Promoción</div>
-            <div class="foto-producto"><img src="./imagenes/1576-newskill-kitsune-zephyr-series-silla-gaming-acabada-en-tela-gris-negro.jpg" alt=""></div>
-            <div class="nombre">Newskill Kitsune Zephyr Series Silla</div>
-            <div class="precio"><span class="bold">189.95 €</span></div>
-        </div>
-    </section>
-
-    <section>
-        <h2>Artículos <span class="bold">recomendados</span></h2>
-        <div class="producto">
-            <div class="estado">Promoción</div>
-            <div class="foto-producto"><img src="./imagenes/1576-newskill-kitsune-zephyr-series-silla-gaming-acabada-en-tela-gris-negro.jpg" alt=""></div>
-            <div class="nombre">Newskill Kitsune Zephyr Series Silla</div>
-            <div class="precio"><span class="bold">189.95 €</span></div>
-        </div>
-    </section>
-
-    <section>
-        <h2>Productos recomendados</h2>
-        <div id="productos-recomendados">
-            <div class="producto">
-                <img src="./imagenes/1129-team-group-elite-ddr4-2666mhz-16gb-cl19.jpg" alt="">
-                Team Group Elite DDR4 266MHz 16GB CL19
-            </div>
-        </div>
-
-        <p>PC Componentes es la tienda de tecnología online líder.
-            Con servicio de calidad y atención personalizada, los clientes tienen a su disposición el mejor precio de
-            venta onlin en la más amplia variedad de productos tecnológicos:
-            entre otros componenetes, portátiles, ordenadores, periféricos, smartphones y móviles, audio, fotografía,
-            redes y cables, artículos gaming, electr-hogar, tablets ebooks y consumibles.
-        </p>
-    </section>
 
     <footer>
         <div class="links-footer">
@@ -235,7 +376,7 @@
                         <i class="fa-brands fa-apple"></i>
                         Descarga app App Store
                     </li>
-                    <li><img src="./imagenes/qr-app-pcc-es.png" alt=""></li>
+                    <li><img class="codigo-qr" src="./imagenes/qr-app-pcc-es.png" alt=""></li>
                 </ul>
             </div>
         </div>

@@ -34,6 +34,11 @@
 - [Jekyll rb](https://jekyllrb.com/)
 - [HUGO](https://gohugo.io/)
 - [Node JS](https://nodejs.org/en/)
+- [Tailwind](https://tailwindui.com/)
+- [Less cSS](https://lesscss.org/)
+- [Parcel JS](https://parceljs.org/)
+- [Webpack JS](https://webpack.js.org/)
+
 - [Visual Studio](https://visualstudio.microsoft.com/es/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [VsCodium](https://vscodium.com/)
@@ -68,23 +73,3 @@
 - [Interneto - Coding content](https://raindrop.io/Interneto/coding-content-22053379)
 
 ---
-
-- https://tailwindui.com/
-
-- https://www.refactoringui.com/
-
-- https://loremflickr.com/
-
-- https://babakfakhamzadeh.com/
-
-- HTML CSS Support: https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css
-
-- https://evilmartians.com/
-
-- https://lesscss.org/
-
-- https://imjignesh.com/how-to-use-display-flex-css/
-
-- https://webpack.js.org/
-
-- https://parceljs.org/
