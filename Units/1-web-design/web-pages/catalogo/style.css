@@ -1,5 +1,4 @@
 body {
-    border: 1px solid black;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -51,13 +50,27 @@ img {
     align-items: center;
 }
 
-.botonera {
+.links-footer {
+    margin-left: 2px;
     display: flex;
+    flex-direction: row;
     width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
 }
 
-.categorias {
+.links-footer ul {
+    list-style-type: none;
+}
 
+.bold {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
 }
 
 /*

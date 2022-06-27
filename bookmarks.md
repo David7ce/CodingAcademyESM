@@ -76,3 +76,5 @@
 - https://loremflickr.com/
 
 - https://babakfakhamzadeh.com/
+
+- HTML CSS Support: https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css

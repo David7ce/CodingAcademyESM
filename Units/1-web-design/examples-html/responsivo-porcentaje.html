@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivo</title>
+    <style>
+        /* Se recomienda usar medidas relativas, calculadas o porcentajes. */
+        body {
+            margin: 0;
+        }
+
+        .naranja {
+            background-color: orange;
+            width: 50%;
+            padding: 5%;
+        }
+
+        .blanco {
+            background-color: white;
+        }
+
+        .caja {
+            width: calc(100% / 4); /* Forma más sencilla de hacer columnas */
+            background-color: aquamarine;
+            border: 1px solid black;
+            box-sizing: border-box;  /* Para que los bordes no los cuente en el ancho */
+        }
+
+        .contenedor {
+            height: 4em;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="naranja">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. In asperiores minima nisi distinctio. Exercitationem,
+        iure. Eius sed porro excepturi, architecto laboriosam dolorum. Optio, ea natus. Ab sequi minima nulla aut!
+        <div class="blanco">
+            Hola
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+        <div class="caja">4</div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            font-size: 3rem;
+        }
+
+        section {
+            font-size: 1.2em;
+            /* relativo al tamaño de por defecto del html (por lo general 16px) */
+        }
+
+        .icono {
+            width:  2em;
+            height: 2em;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+        
+        .redes {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        P {
+            padding: 2em;
+        }
+
+        .separador {
+            height: 1px;
+            margin: 0.5rem 0;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ejemplo REM</h1>
+    <p>Esto es un texto del tamaño de fuente por defecto del documento.</p>
+
+    <section>
+        <h2>
+            Sección 2
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum illo quas ratione amet alias mollitia rerum
+            iure quidem. Eveniet dolorem, neque maxime vel corrupti maiores eum aperiam praesentium debitis expedita?
+        </p>
+    </section>
+
+    <div class="separador"></div>
+
+    <div class="redes">
+        <div class="icono">F</div>
+        <div class="icono">T</div>
+        <div class="icono">L</div>
+        <div class="icono">P</div>
+    </div>
+
+</body>
+
+</html>
