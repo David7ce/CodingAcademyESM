@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+/* Estilo para teléfonos */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("https://picsum.photos/600/300?random=1");
+    background-size: cover;
+    padding: 2em;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 0 3px black;
+    color: white;
+    text-transform: uppercase;
+}
+
+main {
+    margin: 0 2em;
+    font-family: 'Lato', sans-serif;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #f4f7fc;
+    padding: 2em;
+}
+
+/* Estilo para teléfonos apaisados */
+
+@media screen and (min-width: 800px) {
+    header {
+        background-image: url("https://picsum.photos/900/300?random=1");
+        text-align: center;
+    }
+    main {
+        margin: 0 15%;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+/* Estilo para portátiles y más allá */
+
+@media screen and (min-width: 1200px) {
+    header {
+        background-image: url("https://picsum.photos/1200/300?random=1");
+    }
+    main {
+        width: 900px;
+    }
+}
+
+/* Estilo para impresión */
+
+@media print {
+    main {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+    }
+
+    header {
+        background: none;
+        padding: 0;
+    }
+
+    header h1 {
+        text-shadow: none;
+        color: black;
+        text-transform: none;
+    }
+
+    img {
+        filter: grayscale();
+    }
+}

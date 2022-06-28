@@ -7,9 +7,9 @@
     <title>Formulario</title>
 </head>
 <body>
-    <form action="">
-        <label for="usuario">Usuario <input type="text" name="usuario" id="usuario"></label> <br>
-        <label for="password">Password <input type="password" name="acepta" id="password"></label>
+    <form action="/procesar.html">
+        <label for="usuario">Usuario <input type="text" name="usuario" id="usuario" placeholder="Escribe tu nombre"></label> <br>
+        <label for="password">Password <input type="password" name="acepta" id="password" placeholder="Escribe tu contraseña"></label>
         <label for="acepta"><input type="checkbox" name="acepta" id="acepta"></label>
         <input type="search" name="" id="">
         <input type="mail" name="id" id="">
@@ -18,6 +18,16 @@
         <input type="datetime" name="" id="">
         <input type="time" name="" id="">
         <input type="range" min="10" max="1000" default="10" name="" id="">
+        <input type="number" name="" id="" min="0" max="100">
+
+        <br><br>
+        <h3>Color favorito</h3>
+        <label for="rojo">Rojo</label><input type="radio" name="color" id="rojo" value="rojo"><br>
+        <label for="azul">Azul</label><input type="radio" name="color" id="azul" value="azul"><br>
+        <label for="amarillo">Amarillo</label><input type="radio" name="color" id="amarillo" value="amarillo"><br>
+        <label for="verde">Verde</label><input type="radio" name="color" id="verde" value="verde"><br>
+
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>

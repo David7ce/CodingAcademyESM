@@ -73,3 +73,26 @@
 - [Interneto - Coding content](https://raindrop.io/Interneto/coding-content-22053379)
 
 ---
+
+
+- https://github.com/pastelsky/bundlephobia
+
+- https://bundlephobia.com/
+
+- https://github.com/pastelsky
+
+- https://github.com/sokra
+
+- https://www.jsdelivr.com/
+
+- https://wiki.csswg.org/
+
+- https://html5boilerplate.com/
+
+- https://github.com/h5bp/html5-boilerplate
+
+- https://github.com/h5bp/html5-boilerplate/blob/main/dist/index.html
+
+- https://modernizr.com/
+
+- https://github.com/modernizr/modernizr
