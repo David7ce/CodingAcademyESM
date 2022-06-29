@@ -74,25 +74,16 @@
 
 ---
 
+- https://css-tricks.com/gradient-borders-in-css/
 
-- https://github.com/pastelsky/bundlephobia
+- Dark patterns (infinum)
+- Cookie consent
+- Hoosh
 
-- https://bundlephobia.com/
+- https://colorhunt.co/
 
-- https://github.com/pastelsky
+- https://codepen.io/marscb/pen/GRNWygy
 
-- https://github.com/sokra
+- https://codepen.io/marscb/pen/rNWMqBr
 
-- https://www.jsdelivr.com/
-
-- https://wiki.csswg.org/
-
-- https://html5boilerplate.com/
-
-- https://github.com/h5bp/html5-boilerplate
-
-- https://github.com/h5bp/html5-boilerplate/blob/main/dist/index.html
-
-- https://modernizr.com/
-
-- https://github.com/modernizr/modernizr
+- https://css-tricks.com/snippets/css/complete-guide-grid%20/
