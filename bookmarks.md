@@ -73,17 +73,3 @@
 - [Interneto - Coding content](https://raindrop.io/Interneto/coding-content-22053379)
 
 ---
-
-- https://css-tricks.com/gradient-borders-in-css/
-
-- Dark patterns (infinum)
-- Cookie consent
-- Hoosh
-
-- https://colorhunt.co/
-
-- https://codepen.io/marscb/pen/GRNWygy
-
-- https://codepen.io/marscb/pen/rNWMqBr
-
-- https://css-tricks.com/snippets/css/complete-guide-grid%20/
