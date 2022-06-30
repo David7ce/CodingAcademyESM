@@ -73,3 +73,11 @@
 - [Interneto - Coding content](https://raindrop.io/Interneto/coding-content-22053379)
 
 ---
+
+- https://express.adobe.com/es-ES/sp/?_branch_match_id=1071014402887014262&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT0zJT0otLkgsyi7ILy7RSywo0MvJzMvWTyxyTil3z8xOy0kCAOZJYT8rAAAA
+
+- https://www.behindthename.com/random/?number=2&sets=1&gender=both&surname=&all=yes
+
+- https://mockaroo.com/
+
+- https://www.reddit.com/r/badUIbattles/
