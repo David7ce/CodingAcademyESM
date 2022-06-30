@@ -1,0 +1,104 @@
+:root {
+    --ancho-caja-roja: 10%;
+    --alto-caja-roja: 100%;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.box::before {
+    content: "hola";
+    background-color: blanchedalmond;
+    width: 80%;
+    display: block;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    position: relative;
+    top: -10px;
+    border-radius: .5em;
+}
+
+.box::after {
+    content:"Adiós";
+}
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: "😎";
+    margin-right: 10px;
+}
+
+
+/* Editar imagen con CSS */
+/* Los img no tienen before y after */
+
+.contenedor-imagen {
+    width: 200px;
+    height: auto;
+    position: relative;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-imagen::after, 
+.contenedor-imagen::before {
+    content:"."; /* se puede dejar vacío si tiene tamaño*/
+    background-color: rgb(255, 0, 0, 0.6);
+    width: var(--ancho-caja-roja);
+    height: var(--alto-caja-roja);
+    position: absolute;
+    left: calc(50% - (var(--ancho-caja-roja) / 2));
+    top: calc(50% - (var(--alto-caja-roja) / 2));
+}
+
+.contenedor-imagen::after {
+    transform: rotate(-45deg);
+}
+.contenedor-imagen::before {
+    transform: rotate(45deg);
+}
+
+.test::first-line {
+    color: darkblue;
+    background-color: aqua;
+}
+
+.test::first-letter {
+    font-size: 2em;
+}
+
+.box-clases {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
+
+.box-clases:hover {
+    background-color: bisque;
+    width: 250px;
+}
+
+
+/* Pseudo-elementos */
+::selection {
+    background-color: black;
+    color: red;
+    text-decoration: underline green;
+}
+
+
+input:focus {
+    border: 5px solid black;
+    position: relative;
+    top: -5px;
+    transform: rotate(90deg);
+}
