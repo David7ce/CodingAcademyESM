@@ -83,3 +83,31 @@
 - https://www.reddit.com/r/badUIbattles/
 
 - https://themeforest.net/category/site-templates/creative
+
+---
+
+- https://www.hodgsonruss.com/
+- http://crisan-avocat.ro/
+- http://www.jennyodegard.com/
+- https://www.ylaw.ca/
+- https://www.garrigues.com/es_ES
+- https://www.quinnemanuel.com/
+- https://bighornlaw.com/
+- https://www.lashgoldberg.com/
+- https://westcoasttriallawyers.com/
+- https://contenciosos.com/
+- https://www.ga-p.com/
+- https://www.jlongtinlaw.com/
+- https://www.vancutsem.be/en/
+- https://www.bicklawllp.com/who-we-are/
+- https://www.legalitas.com/actualidad
+- https://vlex.es/
+- https://www.eliasymunozabogados.com/blog
+- https://home.kpmg/es/es/home/tendencias.html
+- 
+
+- https://smith.ai
+
+- Extensiones: HTML Boilerplate
+
+- userway.com

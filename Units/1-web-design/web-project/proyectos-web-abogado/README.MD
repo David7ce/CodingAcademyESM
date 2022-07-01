@@ -18,9 +18,11 @@ También hay tres empresas a las que ha prestado servicios.
 ### Imagen
 No tiene ningún tipo de logotipo, pictogramas, patrones, degradados... simplemente su foto.
 
-Eso si, dice que su color favorito es el amarillo.
+Eso sí, dice que su color favorito es el amarillo.
 
 ### Necesidades
-* Un listado de servicios que presta. Tiene que poderse añadir y quitar, aun no tiene claro cuales son.
+* Un listado de servicios que presta. Tiene que poderse añadir y quitar, aún no tiene claro cuáles son.
 * Un formulario de contacto para pedir información.
-* Una sección de redes sociales, tiene Facebook, Twitter, linkedIn e Instagram.
+* Una sección de redes sociales, tiene Facebook, Instagram, LinkedIn, Twitter.
+ 
+ 
