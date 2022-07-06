@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#client-people {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.client-person-card {
+    height: 20em;
+    width: 20em;
+}
+
+.name {
+    text-align:center;
+}
+
+.photo img {
+    height: 10em;
+    width: 10em;
+    color: rgb(123, 123, 123);
+}
+
+
+footer {
+    background-color: black;
+}
