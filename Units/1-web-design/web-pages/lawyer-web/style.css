@@ -1,0 +1,130 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#client-companies {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}   
+
+#client-people {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2px;
+}
+
+.client-person-card {
+    height: 20em;
+    width: 20em;
+}
+
+@media screen and (min-width: 600px) {
+    #client-people {
+        grid-template-columns: repeat(2, 1fr); /* grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    }
+}
+
+@media screen and (min-width: 850px) {
+    #client-people {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1220px) {
+    #client-people {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #client-people {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+.name {
+    text-align:center;
+}
+
+.photo img {
+    height: 10em;
+    width: 10em;
+    color: rgb(123, 123, 123);
+}
+
+
+#contact{
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+}
+#contact label{
+    display: block;
+    font-weight: bold;
+}
+#contact div{
+    margin-bottom: 15px;
+}
+#contact input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 294px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+}
+#contact input[type='text']:focus, .contacto textarea:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #dde9ec;
+}
+#contact input[type='submit']{
+    border: 1px solid #CED5D7;
+    box-shadow:0 0 0 3px #EEF5F7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+ 
+    background: #e4f1f6;
+    background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+}
+#contact input[type='submit']:hover{
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+}
+#contact input[type='submit']:active{
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+    height: 10em;
+}
+
+#company-name {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+#social-networks {
+    display: flex;
+    justify-content: space-around;
+}
+
+#company-name {
+    color:white;
+}

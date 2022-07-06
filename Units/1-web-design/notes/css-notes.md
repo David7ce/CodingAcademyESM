@@ -1,4 +1,4 @@
-- Iport from:
+- Iport css from:
     - Google
     - Fontawesome
 
@@ -11,3 +11,23 @@
 <script src="https://kit.fontawesome.com/62e54cdba8.js" crossorigin="anonymous"></script> <!--link mío-->
 
 ```
+
+- CSS Rules
+
+```css
+body {
+	font: 'Coursier';
+
+	height: 12px;
+	width: 12px;
+
+	margin: 2px;
+	padding:2px;	
+
+	display: flex;
+	flex-direction: column;
+
+	background-color: #414142;
+    color: #e7e7e8;
+}
+```html
