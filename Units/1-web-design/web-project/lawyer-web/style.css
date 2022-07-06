@@ -3,6 +3,12 @@ h1 {
     text-transform: uppercase;
 }
 
+#client-companies {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
 #client-people {
     border: 1px solid black;
     display: flex;
@@ -27,4 +33,9 @@ h1 {
 
 footer {
     background-color: black;
+}
+
+#social-networks {
+    display: flex;
+    justify-content: space-around;
 }
