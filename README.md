@@ -56,8 +56,7 @@ Clases y apuntes del curso **Programación y diseño web** de ESM (European Scho
 - [Workbook-cs-2](Units/0-fundamental/workbook-cs-2//Program.cs)
 
 ## 1. Diseño Web
-- [HTML Notas](Units/1-web-design/html-notas.md)
-- [Clase 2022-06-20](Units/1-web-design/clase-2022-06-20.md)
+- [HTML Notas](Units/1-web-design/notes/html-notes.md)
 
 ```txt
 - [Clase 2022-06-21](Units/1-web-design/clase-2022-06-21.md)
