@@ -1,14 +1,58 @@
+body {
+    background-color: #f6f6dac3;
+}
+
 h1 {
     text-align: center;
     text-transform: uppercase;
 }
 
-#client-companies {
-    border: 1px solid black;
+#user-intro {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    margin-top: 4em;
+
+}
+
+#profile-photo img {
+    height: 500px;
+    width: auto;
+    margin-left: 2em;
+    border-radius: 100px;
+    z-index: 1;
+}
+
+#description {
+    margin-left: 2em;
+}
+
+.image-back {
+    margin-left: 2em;
+}
+
+.image-back img {
+    z-index: -1;
+    height: 20em;
+}
+
+#client-companies {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2px;
 }   
+
+@media screen and (min-width: 600px) {
+    #client-companies {
+        grid-template-columns: repeat(2, 1fr); /* grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    }
+}
+
+@media screen and (min-width: 850px) {
+    #client-companies {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
 #client-people {
     border: 1px solid black;
