@@ -158,6 +158,7 @@ console.log(p.vacuna ? "Está vacunado." : "No está vacunado.");
 */
 
 /* Crear un array con los númemros entre el 1 y el 100 */
+/*
 function cuentaCien(inicio, fin) {
     var arrayCien = [];
     for (i= inicio; i <= fin; i++) {
@@ -166,10 +167,11 @@ function cuentaCien(inicio, fin) {
     return arrayCien;
 }
 console.log(cuentaCien(1, 100));
+*/
 
 /* Crear un objeto que contenga el nombre, apellidos y dirección de una persona, 
 */
-
+/*
 var objetoPersona = {
     nombre: "Alicia",
     apellido: "Alvariño",
@@ -178,9 +180,68 @@ var objetoPersona = {
 
 console.log(objetoPersona.nombre + " " + objetoPersona.apellido + " vive en " + objetoPersona.direccion);
 
-/* Crear una función que calcule el área de un triángulo */
+// Crear una función que calcule el área de un triángulo
 function areaTriangulo(base, altura) {
     return (base * altura / 2);
 }
 
 console.log("El área del triángulo es "+ areaTriangulo(3,3));
+*/
+/*
+Crear un array de libros por leer vacío.
+Crear una función nuevaRecomendacion(libro) que añada el libro 
+
+*/
+/*
+var recomendacionesLibros = [];
+
+function nuevaRecomendacion(libro) {
+    recomendacionesLibros.push(libro);
+}
+
+function siguienteLibro() {
+    var libro = recomendacionesLibros.shift();
+    return libro;
+}
+
+nuevaRecomendacion("El Señor de los Anillos");
+nuevaRecomendacion("Harry Potter");
+nuevaRecomendacion("Negromante");
+nuevaRecomendacion("Alicia en el País de las Maravillas");
+
+console.log(siguienteLibro());
+*/
+
+// Condensar el ejercicio anterior en un objeto
+/*
+var recomendacionesLibros = {
+    lista: [],
+    add: function(libro) {
+        this.lista.push(libro);
+    },
+    next: function() {
+        return this.lista.shift();
+    }
+}
+recomendacionesLibros.add("El Señor de los Anillos");
+recomendacionesLibros.add("Harry Potter");
+recomendacionesLibros.add("Negromante");
+recomendacionesLibros.add("Alicia en el País de las Maravillas");
+console.log(recomendacionesLibros.next());
+*/
+
+// Función que escriba por consola los números entre inicio y fin
+function rango(inicio, fin, salto) {
+    var array = [];
+    for (i = inicio; i <= fin; i+=salto) {
+        array.push(i);
+    }
+    return array;
+}
+
+var arrayRango = rango(1, 10, 2);
+
+for (j = 0; j <= arrayRango.length; j++) {
+    console.log(j);
+}
+
