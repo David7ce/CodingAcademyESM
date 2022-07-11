@@ -1,0 +1,30 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+ul li {
+    width: 100%;
+    margin-top: 5px;
+}
+
+ul a {
+    border: 1px solid grey;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 800px) {
+    ul {
+        flex-direction: row;
+    }
+    ul li {
+        margin: 0 5px;
+    }
+}
