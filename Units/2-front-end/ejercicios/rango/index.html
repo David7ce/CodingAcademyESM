@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Rango</h1>
+    <p>El resultado del ejercicio se ve en la consola.</p>
+    <p>El objetivo es crear un función que recibe dos números y retorna un array de parámetros.</p>
+    <!-- La etiqueta script se suele poner al final del body -->
+    <script>
+        function rango(inicio, fin) {
+            let resultado = [];
+            for (let i=inicio; i<=fin; i++) {
+                resultado.push(i);
+            }
+            return resultado;
+        }
+        console.log(rango(1, 100));
+        console.log(rango(6, 43));
+        console.log(rango(-50, 10));
+    </script>
+</body>
+
+</html>
