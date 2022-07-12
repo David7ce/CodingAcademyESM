@@ -74,3 +74,10 @@
 
 ---
 
+- https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var
+
+- https://conecti.me/
+
+- Extensions: VSCode Icons
+
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
