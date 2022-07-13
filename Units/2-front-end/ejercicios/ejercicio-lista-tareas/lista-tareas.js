@@ -1,12 +1,11 @@
+// Definir una tarea, es un objeto con tres variables
 let tarea = {
     nombre: "Fregar la losa",
-    estado: false, // "completada" "no completada"
-    descripcion: "Algo",
+    descripcion: "Hay que fregar todos los platos de la casa",
+    completada: false, // "completada" "no completada"
 };
 
-// Lista de tareas es un array
-
-console.log(tarea);
+// Lista de tareas es un array de objetos
 let listaTareas = [
     {
         nombre: "Sacar al gato a paser",
@@ -19,22 +18,21 @@ let listaTareas = [
         completada: true,
     },
     {
-        nombre: "SLimpiar los platos",
+        nombre: "Limpiar los platos",
         descripcion: "",
         completada: false,
     }
 ];
 
-// let listaTareas = [];
-console.log(listaTareas);
-listaTareas.push(tarea);
-console.log(listaTareas);
-
-
-/*
-function addTarea(tarea) {
-    let listaTareas = [];
-    listaTareas.push(tarea);
-    return listaTareas;
+function mostrarTarea(tarea) {
+    return `[${tarea.completada ? "x" : " "}] ${tarea.nombre} (${tarea.descripcion})`
 }
-*/
+
+function mostrarLista(lista) {
+    for (let i = 0; i < lista.length; i++) {
+        console.log(mostrarTarea(lista[i]))
+    }
+}
+
+mostrarLista(listaTareas);
+console.log(mostrarTarea(tarea));
