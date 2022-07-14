@@ -100,9 +100,8 @@ let datos = [{
     "vacunado": true
 }];
 
-function peroObjeto2String(perro) {
-    return `
-    <div>
+function perroObjeto2string(perro) {
+    return `<div class="ficha-perro">
         <h2>${perro.nombre}</h2>
         <ul>
             <li><span>Color: </span>${perro.color}</li>
@@ -110,4 +109,18 @@ function peroObjeto2String(perro) {
             <li><span>Vacunado: </span>${perro.vacunado ? "si" : "no"}</li>
         </ul>
     </div>`
-}
+};
+
+let codigo = "";
+
+for (i = 0; i < datos.length; i++) {
+    codigo += perroObjeto2string(datos[i]);
+};
+console.log(codigo);
+
+//let listaPerros = document.getElementById("contenedor");
+//listaPerros.innerHTML = codigo;
+document.getElementById("contenedor").innerHTML = codigo;
+
+// perroObjeto2string(datos[i]).innerHTML += `<li>${listaPerros[i]}</li>`;
+
