@@ -62,6 +62,9 @@
 - [Coding Academy · GitHub](https://github.com/David7ce/CodingAcademy)
 - [WorkBook-1 | Replit](https://replit.com/@prueba8475/Workbook-1#main.cs)
 
+## Tools
+- [Mockaroo](https://mockaroo.com/)
+
 ## Web Dev
 - [W3Schools](https://www.w3schools.com/)
 
