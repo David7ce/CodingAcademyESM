@@ -85,4 +85,3 @@ Apuntes de **Programación y diseño web** de ESM Tenerife 2022.
 - [Clase 2022-10-17](Units/8-mobile-app/clase-2022-10-17.md)
 - [Clase 2022-10-24](Units/8-mobile-app/clase-2022-10-24.md)
 - [Clase 2022-10-31](Units/8-mobile-app/clase-2022-10-31.md)
-
