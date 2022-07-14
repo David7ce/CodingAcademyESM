@@ -1,6 +1,5 @@
 # Coding Academy Clase
-
-Clases y apuntes del curso **Programación y diseño web** de ESM (European School Management) 2022.
+Apuntes de **Programación y diseño web** de ESM Tenerife 2022.
 
 # Ruta de directorio
 ```sh
@@ -86,4 +85,4 @@ Clases y apuntes del curso **Programación y diseño web** de ESM (European Scho
 - [Clase 2022-10-17](Units/8-mobile-app/clase-2022-10-17.md)
 - [Clase 2022-10-24](Units/8-mobile-app/clase-2022-10-24.md)
 - [Clase 2022-10-31](Units/8-mobile-app/clase-2022-10-31.md)
-```
+
