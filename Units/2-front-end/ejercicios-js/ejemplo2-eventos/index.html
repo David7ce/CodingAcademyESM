@@ -8,7 +8,24 @@
 </head>
 <body>
     <input type="text" name="entrada" id="entrada">
-    <button onclick="mostrarConsola()">Consola</button>
+    <button onclick="mostrarConsola()">Consola</button> <br>
+
+    <!--
+    <input type="range" name="rango" id="rango">
+    <button onclick="mostrarValor()">Ver valor</button>
+    <span id="valor-rango"></span>
+    -->
+
+    <input  onchange="mostrarValor()" type="range" name="rango" id="rango">
+    <span id="valor-rango"></span>
+
+    <br>
+
+    <input type="text" name="palabra" id="palabra">
+    <div>
+        La palabra es: <span id="valor-palabra"></span>
+    </div>
+
     <script src="./ejemplo2-eventos.js"></script>
 </body>
 </html>
