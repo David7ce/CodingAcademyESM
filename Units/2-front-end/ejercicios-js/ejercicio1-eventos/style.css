@@ -1,0 +1,19 @@
+body {
+    padding: 5px;
+}
+
+#botonera button {
+    margin-left: 50px;
+}
+
+#contenedor {
+    height: 400px;
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+#contenedor h2 {
+    margin-left: 42px;
+}
