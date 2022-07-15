@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo 2 Eventos</title>
 </head>
+
 <body>
     <input type="text" name="entrada" id="entrada">
     <button onclick="mostrarConsola()">Consola</button> <br>
@@ -16,16 +18,23 @@
     <span id="valor-rango"></span>
     -->
 
-    <input  onchange="mostrarValor()" type="range" name="rango" id="rango">
+    <input onchange="mostrarValor()" type="range" name="rango" id="rango">
     <span id="valor-rango"></span>
-
     <br>
-
-    <input type="text" name="palabra" id="palabra">
+    <input type="text" name="palabra" id="palabra" onkeyup="actualizarPalabra()"> <!-- onchange="actualizarPalabra()"-->
+    <!-- onkeyup onkeypress onkeydown para poner atajos de teclado -->
     <div>
         La palabra es: <span id="valor-palabra"></span>
     </div>
 
+    <div class="validar-password">
+        El passsword debe de tener más de 8 caracteres. <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" onkeyup="validarPassword()">
+        <div id="mensaje-password"></div>
+    </div>
+
     <script src="./ejemplo2-eventos.js"></script>
 </body>
+
 </html>
