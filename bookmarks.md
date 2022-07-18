@@ -76,3 +76,6 @@
 - [Interneto - Coding content](https://raindrop.io/Interneto/coding-content-22053379)
 
 ---
+
+Activar pulsar teclas por pantalla:
+"Screencast Mode" en VS Code

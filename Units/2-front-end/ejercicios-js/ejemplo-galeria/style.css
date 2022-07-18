@@ -1,0 +1,13 @@
+.marcada-para-borrar {
+    filter: blur(2px);
+    border: 1px solid red;
+}
+
+#botonera {
+    padding: 2em;
+}
+
+#contenedor-fotos {
+    padding: 3em;
+}
+

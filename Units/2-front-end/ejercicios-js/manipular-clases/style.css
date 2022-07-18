@@ -1,0 +1,15 @@
+/* Elemntos que sean un div con la clase box */
+div.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 1em;
+}
+
+#caja-1 {
+    background-color: coral;
+}
+
+.clicked {
+    background-color: black !important;
+}
