@@ -25,9 +25,19 @@ var emojis = [👍, 👎, 🤙, 🖐];
 var numeros = [1, 2, 3, 4, 5];
 var letras = [a, b , c, d]; // array de letras
 var cosas = [true, 4, "adiso"];
-var listas = [vacio, emojis, numeros, letras, cosas]
+var listas = [vacio, emojis, numeros, letras, cosas];
+
+let variable = [];
 
 console.log(emojis);
+
+/*
+shift()
+unshift()
+
+pop()
+push()
+*/
 ```
 
 ## Funciones para añadir o quitar elementos dentro de un array
@@ -44,5 +54,39 @@ console.log(emojis);
 
 ---
 
+## Herramientas del DOM
+```js
+document.getElementById("");
+document.getElementsByClassName("");
+document.querySelectorAll()
+```
+
+---
+
 Activar pulsar teclas por pantalla:
 "Screencast Mode" en VS Code
+
+---
+
+## Ejercicios
+
+## 19/07/2022
+active-tab
+
+## Programación funcional
+- Prgramación funcioanl, de más alto nivel más fácil para las personas.
+
+- La idea que es que los programas están compuestos de funciones, la función entra o sale algo y no muta.
+
+- JS lenguaje de programación multiparadigma, programación funcional, programación imperativa.
+
+- Las variables no se mutan, no se les cambia el valor, el valor es siempre el mismo
+- Funciones de primera clase
+- Y usar colbacks
+
+- Función pura, la misma entrada da siempre la misma salida, es decir es predecible, no tiene efectos secundarios, más fácil de comprobar si hacen bien su trabajo.
+
+Entrada de la función es los argumentos, y la salida es el return.
+
+Una función no modifica nada que no sea su retorno.
+

@@ -5,25 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="componente-tabs">
-        <div class="botonera-tabs">
-            <button>Pestaña 1</button>
-            <button>Pestaña 2</button>
-            <button>Pestaña 3</button>
+    <div class="componentes-tabs">
+        <div class="botonera-componentes">
+            <button id="boton-1" onclick="cambiarTab(event)">Pestaña 1</button>
+            <button id="boton-2" onclick="cambiarTab(event)">Pestaña 2</button>
+            <button id="boton-3" onclick="cambiarTab(event)">Pestaña 3</button>
         </div>
         <div class="contenedor-tabs">
-            <div class="tab1 active-tab">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nesciunt dolorum quo nulla! Amet minima quae, perspiciatis similique cumque rerum reprehenderit, repellendus provident commodi eaque nobis quibusdam. Sed, ipsa reiciendis.</p>
+            <div id="tab-1" class="tab active-tab">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis facere, molestiae modi doloribus in officia. Nulla labore ratione molestiae magnam. Veritatis inventore veniam illum praesentium nesciunt aspernatur, eaque assumenda cupiditate.
+                </p>
             </div>
-            <div class="tab2">
-                <img src="" alt="">
+            <div id="tab-2" class="tab">
+                <ul>
+                    <li>Uno</li>
+                    <li>Dos</li>
+                    <li>Tres</li>
+                    <li>Cuatro</li>
+                </ul>
             </div>
-            <div class="tab3">
-                <table></table>
+            <div id="tab-3" class="tab">
+                <img src="https://picsum.photos/600/400?random=1" alt="">
             </div>
         </div>
     </div>
+    <script src="./ejemplo-tabs.js"></script>
 </body>
 </html>
