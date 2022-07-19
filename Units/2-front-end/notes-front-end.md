@@ -82,7 +82,7 @@ active-tab
 
 - Las variables no se mutan, no se les cambia el valor, el valor es siempre el mismo
 - Funciones de primera clase
-- Y usar colbacks
+- Y usar callback
 
 - Función pura, la misma entrada da siempre la misma salida, es decir es predecible, no tiene efectos secundarios, más fácil de comprobar si hacen bien su trabajo.
 
