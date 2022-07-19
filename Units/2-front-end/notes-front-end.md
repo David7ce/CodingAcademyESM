@@ -44,4 +44,5 @@ console.log(emojis);
 
 ---
 
-2022/07/14
+Activar pulsar teclas por pantalla:
+"Screencast Mode" en VS Code
