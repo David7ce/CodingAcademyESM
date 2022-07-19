@@ -90,3 +90,7 @@ Entrada de la función es los argumentos, y la salida es el return.
 
 Una función no modifica nada que no sea su retorno.
 
+
+- Función map viene integrada (.map)
+
+- ForEach

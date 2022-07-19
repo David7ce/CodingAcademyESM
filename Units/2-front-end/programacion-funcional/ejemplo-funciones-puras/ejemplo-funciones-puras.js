@@ -73,3 +73,80 @@ function mayus(s) {
 }
 
 console.log(map(mayus, palabras));
+console.log(palabras.map(mayus));  // viene por defecto en 
+
+console.log(l.map(duplicar));
+
+let menu = ["home", "sobre nosotros", "carrito"];
+
+function meterEnLi(elemento) {
+    return `<li> ${elemento} </li>`
+}
+
+console.log(menu);
+console.log(menu.map(meterEnLi).join("\n"));
+
+// --------------------------------------------------------- //
+
+function meterEnDiv(elemento) {
+    return `<div>${elemento}</div>$`
+}
+
+let abecedario = "abcdefghijklmnñopqrstuvwxyz"; 
+let arrAbecedario = abecedario.split("");
+
+console.log(arrAbecedario);
+
+let divAbecedario = arrAbecedario.map(meterEnDiv);
+
+ console.log(divAbecedario.join("\n"));
+
+console.log(
+    abecedario.split("").map(
+        meterEnDiv)
+        .join("\n")
+)
+/*
+console.log(
+    abecedario.split("")
+    .map(function (x) {
+        return `<div> ${x} </div>`
+    }
+    .join("\n")
+)
+*/
+
+console.log( 
+    l.map(function(x) {return x*3})
+)
+
+console.log( 
+    l.map(function(x) {return Math.sqrt(x)})
+)
+
+console.log( 
+    l.map(function(x) {return "aguacate"})
+)
+
+console.log(
+    l.map( x => x * 5)
+)
+
+const triple = x => x + 3;
+
+/*
+const otro =(x, y) => {
+    console.log()
+    return x +3;
+}
+*/
+
+console.log(
+    abecedario.split("")
+    .map(x => '<div> ${x} </div>')
+    .join("")
+)
+
+operar (function (x) {return x / 2}, 6)
+
+setTimeout( () => {console.log("timeout")}, 1000);
