@@ -377,3 +377,62 @@ console.log(
         .map(persona => persona.gender)
         .sort() // ordenar por órden alfabético
 )
+
+console.log(
+  datos.map(
+    x => `${x.first_name} ${x.last_name}`
+  )
+)
+
+console.log(
+  [1,11,20,2, "hola", ].sort
+)
+
+// Función de comparación
+
+console.log(
+  datos.map(
+    x=> `${x.id}: ${x.first_name} ${x.last_name}`
+  )
+)
+
+let listaNumeros = [6, 1, 3, 4, 1562, 154];
+
+console.log(
+  listaNumeros.sort(
+    (a, b) => a - b
+  )
+)
+
+console.log(
+  datos.sort(
+    (a, b) => {
+      if (a.first_name < b.first_name) return - 1;
+      if (a.first_name < b.first_name) return 1;
+      return 0;
+    }
+  )
+);
+
+(() => console.log("hola"))();
+
+console.log("todo en una línea");console.log("hola");console.log("adios");
+
+function personaHTML(persona) {
+  return `
+  <div class="ficha-persona">
+    <h2>Nombre de la persona</h2>
+    <a href="mailto:persona@mail.com">Enviar email</a>
+  </div>
+  `;
+}
+
+console.log(
+  datos.sort(
+    (a, b) => {
+      if (a.id < b.id) return -1;
+      if (a.id > b.id) return 1;
+      return 0;
+    }
+  ).map(personaHTML)
+)
