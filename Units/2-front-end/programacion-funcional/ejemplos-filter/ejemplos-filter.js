@@ -436,3 +436,23 @@ console.log(
     }
   ).map(personaHTML)
 )
+
+document.getElementById("lista-clientes").innerHTML =
+    datos.sort(
+      (a, b) => {
+        if (a.id < b.id) return -1;
+        if (a.id > b.id) return 1;
+        return 0;
+      })
+      .filter(x => x.gender === "Female")
+      .map(personaHTML)
+      .map(x => `<li> ${x} </li>`)
+      .join("\n")
+
+console.log(
+  listaNumeros.map(
+    elNumero => elNumero * 2
+  ).map(
+    elNumero => elNumero - 100
+  )
+);
