@@ -1,6 +1,7 @@
 function cambiarTab(event) {
     // Mirar el evento donde se ha hecho click
-    // console.log(event.target.id);
+    console.log(event.target.id);
+    
     let tabPulsada = event.target.id;
     let tab1 = document.getElementById("tab-1");
     let tab2 = document.getElementById("tab-2");

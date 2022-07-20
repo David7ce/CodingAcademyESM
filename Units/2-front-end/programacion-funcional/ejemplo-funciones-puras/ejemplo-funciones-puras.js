@@ -1,34 +1,38 @@
-console.log("hola");
+console.log("Inicio");
 
-let i = 0;
+let numero = 5;
 
 // Función con efectos secundarios, depende del valor de i y escribe en la consola
 
 function decirNumero() {
-    console.log(i++);
+    console.log(numero+1);
 }
 
-decirNumero();
-decirNumero();
+decirNumero(); // aquí vale numero
+decirNumero(); // aquí vale numero más uno
 
-// Función pura
+// Al imprimir en el console.log:
+// con numero++ me sale (5, 6) 
+// con numero+1 (6, 6)
+// con numero = numero+1 (6, 7)
+// con numero = ++numero (6, 7);  
+
+// Función pura, su valor es conocido
 function duplicar(n) {
     return n*2;
 }
 
 let a = duplicar(4);
-let b = duplicar(4);
-let c = duplicar(4);
-let d = duplicar(4);
 
-// A todo lo que se modifica se el llama estado
+// A todo lo que se modifica se le llama estado
 
-// Funcioens de priemra clase
+// Funciones de primera clase
 function saludar(siguiente) {
     console.log("hola");
     siguiente();
 }
 
+// Funciones de paso
 function despedirse() {
     console.log("adios");
 }
@@ -54,6 +58,7 @@ function operar(operacion, numero) {
 console.log(operar(duplicar, 5));
 console.log(operar(sumar2, 5));
 
+// Función map
 function map(operacion, lista) {
     let resultado = [];
     for (let i = 0; i < lista.length; i++) {
