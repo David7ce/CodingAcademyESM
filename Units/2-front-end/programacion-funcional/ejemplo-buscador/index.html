@@ -6,13 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- <script src="./ejemplo-buscador.js" defer></script> -->
 </head>
 <body>
 
     <h1>Ejemplo Buscador</h1>
 
     <div class="componentes-buscador">
-        
+        <div class="controles">
+            <input onkeyup="actualizarLista()" type="text" name="barra-busqueda" id="barra-busqueda">
+            <button onclick="ascender()">Nombre asc</button>
+            <button onclick="numeroAscendente()">Número asc</button>
+            <button onclick="descender()">Nombre desc</button>
+            <button onclick="numeroDescendente()">Número desc</button>
+
+        </div>
+        <div id="lista">
+                
+        </div>
     </div>
 
     <script src="./ejemplo-buscador.js"></script>

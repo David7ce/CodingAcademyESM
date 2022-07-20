@@ -95,3 +95,5 @@ Una función no modifica nada que no sea su retorno.
 - Función map viene integrada (.map)
 
 - ForEach
+ 
+- "".toLocaleLowerCase minúsculaes según el tipo de tecaldo en local

@@ -64,6 +64,7 @@
 
 ## Tools
 - [Mockaroo](https://mockaroo.com/)
+- [Regex101](https://regex101.com/)
 
 ## Web Dev
 - [W3Schools](https://www.w3schools.com/)
