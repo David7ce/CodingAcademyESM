@@ -330,8 +330,10 @@ function actualizarLista() {
   if (orden === "ascendente") {
     listaOrdenada = [...datos].sort(
       (a, b) => {
-        if (a.nombre_especie.toLowerCase() < b.nombre_especie.toLowerCase()) return -1;  // resultado correcto
-        if (a.nombre_especie.toLowerCase() > b.nombre_especie.toLowerCase()) return 1;
+        if (a.nombre_especie.toLowerCase() < b.nombre_especie.toLowerCase()) 
+          return -1;  // resultado correcto
+        if (a.nombre_especie.toLowerCase() > b.nombre_especie.toLowerCase()) 
+          return 1;
         return 0;
       }
     )
@@ -340,8 +342,10 @@ function actualizarLista() {
   else if (orden === "descendente") {
     listaOrdenada = [...datos].sort(
       (a, b) => {
-        if (a.nombre_especie.toLowerCase() > b.nombre_especie.toLowerCase()) return -1;
-        if (a.nombre_especie.toLowerCase() < b.nombre_especie.toLowerCase()) return 1;
+        if (a.nombre_especie.toLowerCase() > b.nombre_especie.toLowerCase()) 
+          return -1;
+        if (a.nombre_especie.toLowerCase() < b.nombre_especie.toLowerCase()) 
+          return 1;
         return 0;
       }
     )

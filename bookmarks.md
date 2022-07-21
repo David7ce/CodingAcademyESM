@@ -100,8 +100,6 @@
 ### Web Dev Tutorial
 - [W3Schools](https://www.w3schools.com/)
 
-
-
 ## Interneto links
 - [Interneto](https://raindrop.io/interneto/)
 - [Interneto - Coding accounts](https://raindrop.io/Interneto/coding-account-19046049)
@@ -112,5 +110,4 @@
 ## Articles Web development
 - [Flexible Box | MDN ](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout)
 - [Array Sort | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-
-- 
+- [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
