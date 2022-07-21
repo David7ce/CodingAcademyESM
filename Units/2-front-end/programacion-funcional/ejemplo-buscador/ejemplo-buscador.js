@@ -300,6 +300,7 @@ let datos = [{
     "recuento": 39
   }];
 
+//   
 let orden = "ascendente";
 
 function ascender() {
@@ -351,11 +352,9 @@ function actualizarLista() {
     else {
         listaOrdenada = [...datos];
     }
-    // Hasta aquí era ordenar
 
     let textoBuscado = document.getElementById("barra-busqueda").value;
     // console.log(textoBuscado);
-
 
     let listaFiltrada = listaOrdenada.filter(
         animal => animal.nombre_especie.toLowerCase().includes(textoBuscado.toLowerCase())

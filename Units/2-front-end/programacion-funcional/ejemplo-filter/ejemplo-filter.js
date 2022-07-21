@@ -392,22 +392,24 @@ console.log(
 
 console.log(
   datos.map(
-    x=> `${x.id}: ${x.first_name} ${x.last_name}`
+    x => `${x.id}: ${x.first_name} ${x.last_name}`
   )
 )
 
 let listaNumeros = [6, 1, 3, 4, 1562, 154];
 
-console.log(
-  listaNumeros.sort(
-    (a, b) => a - b
-  )
-)
+function compararNumeros(a, b) {
+  if (a > b) return 1;
+  if (a < b) return -10;
+  return 0;
+}
 
+
+// Imprime por pantalla el resultado de ordenar los datos por orden ascendente
 console.log(
   datos.sort(
     (a, b) => {
-      if (a.first_name < b.first_name) return - 1;
+      if (a.first_name > b.first_name) return - 1;
       if (a.first_name < b.first_name) return 1;
       return 0;
     }
@@ -416,6 +418,7 @@ console.log(
 
 (() => console.log("hola"))();
 
+// Los puntos y coma son para separar líneas de código y pueden ir en la misma
 console.log("todo en una línea");console.log("hola");console.log("adios");
 
 function personaHTML(persona) {

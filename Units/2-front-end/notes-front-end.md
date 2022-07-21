@@ -1,16 +1,10 @@
+## Javascript
+
 - Empezamos con JavaScript
 
-```js
-console.log("Hello world!");
-
-var CONSTANTES = 10;
-
-let b = 10;
-
-```
-
+## Variables
 - Las variables no llevan tipo
-- Las constantes
+- Las constantes se escriben como const
 - JavaScript auto-convierte los números, si no es texto saldría NaN (Not a Number)
 - El parámetro de una función puede ser un número, texto u otra función
 - Solo hay un tipo de número (enteros y dobles son lo mismo), 
@@ -29,44 +23,47 @@ var listas = [vacio, emojis, numeros, letras, cosas];
 
 let variable = [];
 
+const PI = 3.141592653589793;
+
 console.log(emojis);
-
-/*
-shift()
-unshift()
-
-pop()
-push()
-*/
 ```
 
 ## Funciones para añadir o quitar elementos dentro de un array
-
 - shift() elimina el primer elemento de un array
-- unshift() añade un elemento al principio del array
-
-- pop() elimina el último elemento del array
-- push() añade un elemento al final del array
-
----
-
-## Plantilla literal
-
----
-
-## Herramientas del DOM
 ```js
-document.getElementById("");
-document.getElementsByClassName("");
-document.querySelectorAll()
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift();
 ```
 
----
+- unshift() añade un elemento al principio del array
+```js
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift();
+```
 
-Activar pulsar teclas por pantalla:
-"Screencast Mode" en VS Code
+- pop() elimina el último elemento del array
+```js
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.pop();
+```
 
----
+- push() añade un elemento al final del array
+```js
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi");
+```
+
+## Herramientas del DOM
+
+- Formas para llamar a los elementos del HTML en el DOM
+```js
+document.getElementById("botonera");
+document.getElementsByClassName("clase-persona");
+document.querySelectorAll(h1)  // Se usa css
+```
+
+_Para activar pulsar teclas por pantalla: "Screencast Mode" en VS Code_
+
 
 ## Ejercicios
 
@@ -90,10 +87,7 @@ Entrada de la función es los argumentos, y la salida es el return.
 
 Una función no modifica nada que no sea su retorno.
 
-- Función flecha
-
+- Función flecha 
 - Función map viene integrada (.map)
-
 - ForEach
- 
 - "".toLocaleLowerCase minúsculaes según el tipo de tecaldo en local
