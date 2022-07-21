@@ -1,3 +1,26 @@
 #lista {
     margin: 2em;
 }
+
+h1 {
+    text-align: center;
+}
+
+.controles {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#barra-busqueda {
+    width: 400px;
+}
+
+#lista {
+    margin: 2em;
+    padding: 1em;
+    border: 1px solid blacK;
+}
+
+
