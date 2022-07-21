@@ -58,7 +58,7 @@ Apuntes de **Programación y diseño web** de ESM Tenerife 2022.
 - [Toolkit emmet](Units/1-web-design/notes/Toolkit-emmet.md)
 
 ## 2. Front end
-- [Clase 2022-07-11](Units/2-front-end/notes-front-end.md)
+- [Front-end notes](Units/2-front-end/front-end-notes.md)
 
 ## 3. Database
 - [Clase 2022-08-01](Units/3-database/clase-2022-08-01.md)
