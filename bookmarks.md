@@ -76,6 +76,9 @@
 - [Interneto - GitHub](https://github.com/Interneto/Interneto)
 - [Cmo7 - GitHub](https://github.com/cmo7)
 
+## Search
+- [DuckDuckGo Bang!](https://duckduckgo.com/bang)
+
 ## Tools
 - [Picsum.photos](https://picsum.photos/)
 - [Mockaroo](https://mockaroo.com/)
@@ -111,3 +114,15 @@
 - [Flexible Box | MDN ](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout)
 - [Array Sort | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 - [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+
+## API 
+- [The Movie Database](https://www.themoviedb.org/)
+
+### json
+- [DuckDuckGo Bang](https://duckduckgo.com/bang.v260.js)
+- [Data DDG Bangs](https://slc.is/data/ddgBangs.txt)
+- [No Hay Webs (peliculas-populares.json)](https://nohaywebs.com/esm/peliculas-populares.json)
+- [No Hay Webs (configuration.json)](https://nohaywebs.com/esm/configuration.json)
+
+## Web examples
+- [JLongtin Law](https://www.jlongtinlaw.com/)
