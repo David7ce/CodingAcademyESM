@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.ficha-pelicula {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+
+.ficha-pelicula {
+    height: 500px;
+    width: 700px;
+    margin: 2em;
+}
