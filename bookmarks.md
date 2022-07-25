@@ -117,6 +117,8 @@
 
 ## API 
 - [The Movie Database](https://www.themoviedb.org/)
+- [API TMDB](https://api.themoviedb.org/3/movie/10003?api_key=58b9272eeaa5596edd32340af66c22b9&language=es-ES)
+- [TMDB Documentation](https://developers.themoviedb.org/3/authentication/how-do-i-generate-a-session-id)
 
 ### json
 - [DuckDuckGo Bang](https://duckduckgo.com/bang.v260.js)
