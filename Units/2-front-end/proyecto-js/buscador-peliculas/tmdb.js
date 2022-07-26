@@ -1,8 +1,9 @@
-// Descomponemos la url total en trozos: https://api.themoviedb.org/3/movie/10003?api_key=58b9272eeaa5596edd32340af66c22b9&language=es-ES
+// API de The Movie Database: https://www.themoviedb.org/documentation/api
+// Descomponemos la url total https://api.themoviedb.org/3/movie/10003?api_key=58b9272eeaa5596edd32340af66c22b9&language=es-ES en trozos
 
-import { apiKey } from "./secreto.js"
-const urlBase= `https://api.themoviedb.org/3/`;
-// const lang = `es-ES`;  // sin idioma la API lo hace en inglés por defecto
+import { apiKey } from './secreto.js';
+const urlBase = `https://api.themoviedb.org/3/`;
+// const lang = `es-ES`;  // si no se especifica un idioma la API lo hace por defecto en inglés
 
 async function fetchJSON(url) {
     const tiempoInicial = performance.now();

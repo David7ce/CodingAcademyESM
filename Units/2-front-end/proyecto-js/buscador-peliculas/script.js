@@ -1,8 +1,7 @@
 import {obtenerPelicula, buscarPeliculas, obtenerConfiguracion} from './tmdb.js';
 
 /*
-// Antes era necesario llamar a la función, 
-// ahora se puede hacer desde el nivel superior
+// Antes era necesario llamar a la función, ahora se puede hacer desde el nivel superior
 async function init() {
     console.log(await obtenerPelicula(5050));
 }
@@ -18,7 +17,6 @@ init();
 /*
 console.log(await obtenerPelicula(550, 'fr-FR'));
 console.log(await obtenerPelicula(550));
-
 console.log(await buscarPeliculas('8 apellidos', 1, 'es-ES'));
 */
 
@@ -39,7 +37,7 @@ async function manejarCambio(event) {
     }
 
     cajaResultados.innerHTML = datos.results.map(
-        pelicula => `<div clas="pelicula> <h4> ${pelicula.title} </h4> </div>`
+        pelicula => `<div class="ficha-pelicula> <h4> ${pelicula.title} </h4> </div>`
     ).join("\n");
 }
 

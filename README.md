@@ -60,6 +60,10 @@ Apuntes de **Programación y diseño web** de ESM Tenerife 2022.
 ## 2. Front end
 - [Front-end notes](Units/2-front-end/front-end-notes.md)
 
+### Proyectos
+- [Buscador películas](Units/2-front-end/proyecto-js/web-peliculas/index.html)
+- [Web películas](Units/2-front-end/proyecto-js/web-peliculas/index.html)
+
 ## 3. Database
 - [Clase 2022-08-01](Units/3-database/clase-2022-08-01.md)
 - [Clase 2022-08-08](Units/3-database/clase-2022-08-08.md)
