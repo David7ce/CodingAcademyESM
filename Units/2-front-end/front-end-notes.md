@@ -134,3 +134,41 @@ fruits.forEach(myFunction);
 
 - Buscar datos con fetch
 
+## Clase de instalación de nodejs, eslint extensión y eslint (2022-07-26)
+
+Para instalar el linter de JavaScript, es decir el corrector de sintaxis y código debemos hacer los siguientes pasos:
+
+1. Insalar [nodejs](https://nodejs.org/en/) en el ordenador
+  - Mediante un [instalador de paquetes](https://nodejs.org/en/download/package-manager/#windows-1)
+    - Linux: `pacman -S nodejs-lts-fermium nodejs-lts-gallium`
+    - Mac: `brew install node`
+    - WIndows: instalar archivo .exe `winget nodejs` o `choco install nodejs.install`
+  - Con el instalador o compilando y ejecutando los archivos de nodejs  
+
+2. Instalar eslint via npm (node package manager) y como extensión de VSCode
+    1. `npm install eslint --save-dev`
+    2. Configurar el eslint: 
+	    - Inicializar `npm init @eslint/config`
+		- Eslint: (check syntax) | check syntax and find problems| check syntax find problems enforce code style
+		- Modules: (esm) | js modules | common js
+		- Project's framework: (none) | React | Vue.js
+		- Typescrypt: (no) | yes
+		- Code runs on: (browser) | node
+		- Style for project: (guide) |
+		- Style to follow: (google) | airbnb | standard
+		- Format of config file: (JSON) | JS | YAML
+  	3. Instalar la extensión Eslint en VS Code
+  	4. Si subimos los cambios a GitHub, se recomienda excluir las dependencias en el gitignore y añadirlas ejecutando el comando `npm install` que instala las dependencias listadas en el eslintrc.json.
+
+Además podemos instalar la herramienta de JavaScript Vite JS con el instalador de paquetes de node (npm)
+1. Usamos npm: `npm init @eslint/config`
+	- Project name: vite-project 
+	- Select a framework: "vanilla | vue | react | preact | lit | svelte"
+	- Select a variant: vanilla | vanilla-ts
+2. Seguir las instrucciones:
+	```sh
+	cd vite-project
+	npm install
+	npm run dev
+	```
+
