@@ -2,22 +2,26 @@
     border: 1px solid black;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 #caja-resultados > div {
     border: 1px solid black;
     border-radius: .5em;
-    width: calc(25% -1em);
     box-sizing: border-box;
-    margin-bottom: 1em;
-    padding: .5em;
+}
+
+.pelicula {
+    width: 185px;
 }
 
 .pelicula h4 {
     margin: 0;
     text-align: center;
+}
+.pelicula img {
+    border-radius: 2px;
 }
 
 input {

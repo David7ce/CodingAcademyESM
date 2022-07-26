@@ -76,6 +76,12 @@
 - [Interneto - GitHub](https://github.com/Interneto/Interneto)
 - [Cmo7 - GitHub](https://github.com/cmo7)
 
+
+## Runtime
+- [NodeJS](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+- [ESLint](https://eslint.org/)
+
 ## Search
 - [DuckDuckGo Bang!](https://duckduckgo.com/bang)
 
