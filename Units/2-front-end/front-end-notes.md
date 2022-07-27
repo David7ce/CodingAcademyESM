@@ -171,4 +171,5 @@ Además podemos instalar la herramienta de JavaScript Vite JS con el instalador 
 	npm install
 	npm run dev
 	```
-
+- Instalar qrcode desde npm
+npm install qrcode.react

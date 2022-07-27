@@ -40,14 +40,17 @@
 
 ## Framework / IDE
 - [.Net](https://dotnet.microsoft.com/en-us/)
+- [Angular.io](https://angular.io/)
 - [Bootstrap](https://getbootstrap.com/)
 - [DotNet](https://dotnet.microsoft.com/en-us/)
 - [Jekyll rb](https://jekyllrb.com/)
 - [HUGO](https://gohugo.io/)
 - [Node JS](https://nodejs.org/en/)
+- [Materialize CSS](https://materializecss.com/)
 - [Tailwind](https://tailwindui.com/)
 - [Less cSS](https://lesscss.org/)
 - [Parcel JS](https://parceljs.org/)
+- [React JS](https://reactjs.org/)
 - [Webpack JS](https://webpack.js.org/)
 - [ViteJS](https://vitejs.dev/)
 - [Visual Studio](https://visualstudio.microsoft.com/es/)
@@ -136,3 +139,36 @@
 - [JLongtin Law](https://www.jlongtinlaw.com/)
 
 - https://popper.js.org/
+
+
+Postman.io
+REST Client
+http client
+
+---
+
+https://www.dcloud.io/
+
+(Frameworks: react angular vue svelte)
+
+- https://babeljs.io/
+- https://www.typescriptlang.org/
+- https://colineberhardt.github.io/wasm-mandelbrot/#WebAssembly
+- https://graphql.org/
+- https://redux.js.org/ 
+
+
+- https://github.com/brillout/awesome-react-components
+- https://github.com/neutraltone/Awesome-Stock-Resources
+
+- Bundlephobia extension
+
+- https://www.prisma.io/
+- https://pnpm.io/
+
+---
+
+- https://en.wikipedia.org/wiki/Btrfs (Garuda Linux)
+- https://app.netlify.com/drop
+- https://react-bootstrap.github.io/
+- https://chakra-ui.com/

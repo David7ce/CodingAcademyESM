@@ -1,0 +1,16 @@
+[{
+    "id": 1,
+    "first_name": "Nick",
+    "last_name": "Twinning",
+    "email": "ntwinning0@wiley.com",
+    "gender": "Male",
+    "ip_address": "146.9.156.113"
+  }, {
+    "id": 2,
+    "first_name": "Adolphus",
+    "last_name": "Andell",
+    "email": "aandell1@dell.com",
+    "gender": "Male",
+    "ip_address": "30.198.191.160"
+  }
+]   
