@@ -138,3 +138,6 @@
 ## Web examples
 - [JLongtin Law](https://www.jlongtinlaw.com/)
 
+---
+
+- https://www.db-fiddle.com/
