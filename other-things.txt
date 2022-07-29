@@ -1,0 +1,3 @@
+https://packages.debian.org/stable/allpackages?format=txt.gz
+https://linuxize.com/
+https://gist.github.com/ringanta/4671360

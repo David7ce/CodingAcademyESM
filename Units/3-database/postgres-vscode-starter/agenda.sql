@@ -1,9 +1,9 @@
 DROP TABLE IF EXISTS agenda;
 
 CREATE TABLE agenda (
-    nombre              VARCHAR(30),
+    nombre              VARCHAR(30) NOT NULL,
     apellidos           VARCHAR(59),
-    edad                INTEGER,
+    edad                INTEGER CHECK (edad > 18),
     fecha_nacimiento    DATE,
     profesion           VARCHAR(90),
     aficiones           TEXT,
@@ -23,7 +23,7 @@ INSERT INTO agenda (
 ) VALUES (
     'Alicia',
     'Pérez',
-    18,
+    21,
     '2004-12-12',
     'Estudiante',
     'Fútubol, toros, votar',
