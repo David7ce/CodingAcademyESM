@@ -43,3 +43,12 @@ SET DNI = CASE nombre
 
 ALTER TABLE cuentas
 ALTER COLUMN DNI SET NOT NULL;
+
+ALTER TABLE cuentas 
+
+
+-- @block Una clave Primaria es de forma simple, un valor que nos permite identificar de forma única las filas
+INSERT INTO invitados
+ADD COLUMN id_invitado SERIAL NOT NULL,
+ADD PRIMARY KEY(id_invitado);
+

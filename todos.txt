@@ -1,0 +1,2 @@
+- Extensions for VS Code
+- [Vuerd VSCode extension](https://marketplace.visualstudio.com/items?itemName=dineug.vuerd-vscode)

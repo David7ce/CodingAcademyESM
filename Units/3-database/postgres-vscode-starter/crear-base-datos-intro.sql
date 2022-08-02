@@ -28,3 +28,4 @@ VALUES (
         'Hojaldre con relleno de crema',
         '2.00 €'
     );
+
